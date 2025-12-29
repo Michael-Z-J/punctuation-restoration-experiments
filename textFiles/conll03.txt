@@ -1,0 +1,400 @@
+
+===== Training bert-base-uncased seed 0 on CoNLL-2003 NER =====
+{'loss': 0.1377, 'grad_norm': 0.3347072899341583, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.049222469329833984, 'eval_runtime': 2.3553, 'eval_samples_per_second': 1379.868, 'eval_steps_per_second': 86.613, 'epoch': 1.0}
+{'loss': 0.0506, 'grad_norm': 1.5670808553695679, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0301, 'grad_norm': 1.257489800453186, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.04728827252984047, 'eval_runtime': 2.3279, 'eval_samples_per_second': 1396.079, 'eval_steps_per_second': 87.631, 'epoch': 2.0}
+{'loss': 0.0193, 'grad_norm': 0.6659356355667114, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0128, 'grad_norm': 0.671111524105072, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.047706056386232376, 'eval_runtime': 2.3227, 'eval_samples_per_second': 1399.255, 'eval_steps_per_second': 87.83, 'epoch': 3.0}
+{'loss': 0.0071, 'grad_norm': 0.06469273567199707, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0065, 'grad_norm': 0.021336277946829796, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.04899848997592926, 'eval_runtime': 2.3213, 'eval_samples_per_second': 1400.092, 'eval_steps_per_second': 87.883, 'epoch': 4.0}
+{'loss': 0.0029, 'grad_norm': 0.36295050382614136, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.05385466292500496, 'eval_runtime': 2.3203, 'eval_samples_per_second': 1400.698, 'eval_steps_per_second': 87.921, 'epoch': 5.0}
+{'train_runtime': 137.3313, 'train_samples_per_second': 511.209, 'train_steps_per_second': 31.966, 'train_loss': 0.03068953967040112, 'epoch': 5.0}
+Precision: 0.9809, Recall: 0.9809, F1: 0.9809
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 1 on CoNLL-2003 NER =====
+{'loss': 0.1403, 'grad_norm': 1.618563175201416, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.04662075266242027, 'eval_runtime': 2.3284, 'eval_samples_per_second': 1395.782, 'eval_steps_per_second': 87.612, 'epoch': 1.0}
+{'loss': 0.0521, 'grad_norm': 11.140547752380371, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0303, 'grad_norm': 1.2098627090454102, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.047940921038389206, 'eval_runtime': 2.3254, 'eval_samples_per_second': 1397.583, 'eval_steps_per_second': 87.725, 'epoch': 2.0}
+{'loss': 0.0199, 'grad_norm': 0.479190468788147, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0129, 'grad_norm': 0.5251777768135071, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.05026911944150925, 'eval_runtime': 2.3246, 'eval_samples_per_second': 1398.094, 'eval_steps_per_second': 87.757, 'epoch': 3.0}
+{'loss': 0.0078, 'grad_norm': 0.007265868596732616, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0063, 'grad_norm': 0.05230910703539848, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.052369505167007446, 'eval_runtime': 2.3333, 'eval_samples_per_second': 1392.868, 'eval_steps_per_second': 87.429, 'epoch': 4.0}
+{'loss': 0.0031, 'grad_norm': 0.6560183763504028, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.05514512211084366, 'eval_runtime': 2.3264, 'eval_samples_per_second': 1396.993, 'eval_steps_per_second': 87.688, 'epoch': 5.0}
+{'train_runtime': 136.1574, 'train_samples_per_second': 515.616, 'train_steps_per_second': 32.242, 'train_loss': 0.031328551915892164, 'epoch': 5.0}
+Precision: 0.9813, Recall: 0.9813, F1: 0.9813
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 2 on CoNLL-2003 NER =====
+{'loss': 0.1496, 'grad_norm': 1.2689169645309448, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.04902796819806099, 'eval_runtime': 2.331, 'eval_samples_per_second': 1394.257, 'eval_steps_per_second': 87.516, 'epoch': 1.0}
+{'loss': 0.0522, 'grad_norm': 6.439261436462402, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0299, 'grad_norm': 1.292594313621521, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.045156024396419525, 'eval_runtime': 2.3304, 'eval_samples_per_second': 1394.599, 'eval_steps_per_second': 87.538, 'epoch': 2.0}
+{'loss': 0.0215, 'grad_norm': 1.0047340393066406, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0138, 'grad_norm': 0.752190113067627, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.046906594187021255, 'eval_runtime': 2.3272, 'eval_samples_per_second': 1396.536, 'eval_steps_per_second': 87.66, 'epoch': 3.0}
+{'loss': 0.0076, 'grad_norm': 0.05926629155874252, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0067, 'grad_norm': 0.017272498458623886, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.048149146139621735, 'eval_runtime': 2.3302, 'eval_samples_per_second': 1394.72, 'eval_steps_per_second': 87.545, 'epoch': 4.0}
+{'loss': 0.0033, 'grad_norm': 0.1889813393354416, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.05086769536137581, 'eval_runtime': 2.327, 'eval_samples_per_second': 1396.653, 'eval_steps_per_second': 87.667, 'epoch': 5.0}
+{'train_runtime': 136.5573, 'train_samples_per_second': 514.106, 'train_steps_per_second': 32.148, 'train_loss': 0.0327015839024937, 'epoch': 5.0}
+Precision: 0.9812, Recall: 0.9812, F1: 0.9812
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 3 on CoNLL-2003 NER =====
+{'loss': 0.1371, 'grad_norm': 0.423191636800766, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.05266091227531433, 'eval_runtime': 2.3287, 'eval_samples_per_second': 1395.639, 'eval_steps_per_second': 87.603, 'epoch': 1.0}
+{'loss': 0.0537, 'grad_norm': 0.7584930062294006, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0302, 'grad_norm': 0.5336844325065613, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.04649258032441139, 'eval_runtime': 2.3275, 'eval_samples_per_second': 1396.372, 'eval_steps_per_second': 87.649, 'epoch': 2.0}
+{'loss': 0.0199, 'grad_norm': 1.1549652814865112, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0126, 'grad_norm': 0.09848587214946747, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.048272840678691864, 'eval_runtime': 2.3265, 'eval_samples_per_second': 1396.918, 'eval_steps_per_second': 87.683, 'epoch': 3.0}
+{'loss': 0.0085, 'grad_norm': 0.05977270379662514, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0064, 'grad_norm': 0.07884179055690765, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.05095796659588814, 'eval_runtime': 2.3304, 'eval_samples_per_second': 1394.609, 'eval_steps_per_second': 87.539, 'epoch': 4.0}
+{'loss': 0.0033, 'grad_norm': 0.2539263665676117, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.052029550075531006, 'eval_runtime': 2.3262, 'eval_samples_per_second': 1397.115, 'eval_steps_per_second': 87.696, 'epoch': 5.0}
+{'train_runtime': 136.4839, 'train_samples_per_second': 514.383, 'train_steps_per_second': 32.165, 'train_loss': 0.031257448679765425, 'epoch': 5.0}
+Precision: 0.9813, Recall: 0.9813, F1: 0.9813
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 4 on CoNLL-2003 NER =====
+{'loss': 0.1432, 'grad_norm': 1.8146127462387085, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.04686116799712181, 'eval_runtime': 2.3256, 'eval_samples_per_second': 1397.476, 'eval_steps_per_second': 87.718, 'epoch': 1.0}
+{'loss': 0.0525, 'grad_norm': 10.329299926757812, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0303, 'grad_norm': 1.0230478048324585, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.04923423007130623, 'eval_runtime': 2.3304, 'eval_samples_per_second': 1394.625, 'eval_steps_per_second': 87.54, 'epoch': 2.0}
+{'loss': 0.0205, 'grad_norm': 0.19875699281692505, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0136, 'grad_norm': 1.187137246131897, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.04797602817416191, 'eval_runtime': 2.3297, 'eval_samples_per_second': 1395.038, 'eval_steps_per_second': 87.565, 'epoch': 3.0}
+{'loss': 0.0075, 'grad_norm': 0.015019307844340801, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0067, 'grad_norm': 0.037148311734199524, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.05174136534333229, 'eval_runtime': 2.3297, 'eval_samples_per_second': 1395.058, 'eval_steps_per_second': 87.567, 'epoch': 4.0}
+{'loss': 0.0027, 'grad_norm': 0.4760875701904297, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.05621896684169769, 'eval_runtime': 2.3256, 'eval_samples_per_second': 1397.488, 'eval_steps_per_second': 87.719, 'epoch': 5.0}
+{'train_runtime': 136.195, 'train_samples_per_second': 515.474, 'train_steps_per_second': 32.233, 'train_loss': 0.03179679742435117, 'epoch': 5.0}
+Precision: 0.9809, Recall: 0.9809, F1: 0.9809
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 5 on CoNLL-2003 NER =====
+{'loss': 0.1414, 'grad_norm': 1.1304104328155518, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.0522054024040699, 'eval_runtime': 2.3625, 'eval_samples_per_second': 1375.667, 'eval_steps_per_second': 86.35, 'epoch': 1.0}
+{'loss': 0.0518, 'grad_norm': 1.542708396911621, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0291, 'grad_norm': 1.9795961380004883, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.04222005233168602, 'eval_runtime': 2.3352, 'eval_samples_per_second': 1391.728, 'eval_steps_per_second': 87.358, 'epoch': 2.0}
+{'loss': 0.0204, 'grad_norm': 0.373075008392334, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.013, 'grad_norm': 0.8637017011642456, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.0465068444609642, 'eval_runtime': 2.3258, 'eval_samples_per_second': 1397.374, 'eval_steps_per_second': 87.712, 'epoch': 3.0}
+{'loss': 0.0076, 'grad_norm': 0.007792635355144739, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.007, 'grad_norm': 0.05497444421052933, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.04872795566916466, 'eval_runtime': 2.3296, 'eval_samples_per_second': 1395.088, 'eval_steps_per_second': 87.569, 'epoch': 4.0}
+{'loss': 0.0032, 'grad_norm': 0.16578300297260284, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.05150208994746208, 'eval_runtime': 2.327, 'eval_samples_per_second': 1396.668, 'eval_steps_per_second': 87.668, 'epoch': 5.0}
+{'train_runtime': 136.8484, 'train_samples_per_second': 513.013, 'train_steps_per_second': 32.079, 'train_loss': 0.03142854273998113, 'epoch': 5.0}
+Precision: 0.9814, Recall: 0.9814, F1: 0.9814
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 6 on CoNLL-2003 NER =====
+{'loss': 0.1442, 'grad_norm': 1.6597425937652588, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.05194883793592453, 'eval_runtime': 2.3286, 'eval_samples_per_second': 1395.684, 'eval_steps_per_second': 87.606, 'epoch': 1.0}
+{'loss': 0.0529, 'grad_norm': 0.205905482172966, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0291, 'grad_norm': 0.8868535757064819, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.04989658296108246, 'eval_runtime': 2.3265, 'eval_samples_per_second': 1396.926, 'eval_steps_per_second': 87.684, 'epoch': 2.0}
+{'loss': 0.0202, 'grad_norm': 1.3515609502792358, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0127, 'grad_norm': 0.966636061668396, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.045655619353055954, 'eval_runtime': 2.3282, 'eval_samples_per_second': 1395.952, 'eval_steps_per_second': 87.623, 'epoch': 3.0}
+{'loss': 0.0077, 'grad_norm': 0.1084015741944313, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0068, 'grad_norm': 2.732558488845825, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.05050760507583618, 'eval_runtime': 2.3324, 'eval_samples_per_second': 1393.395, 'eval_steps_per_second': 87.462, 'epoch': 4.0}
+{'loss': 0.0032, 'grad_norm': 0.6268724799156189, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.0538480207324028, 'eval_runtime': 2.3306, 'eval_samples_per_second': 1394.464, 'eval_steps_per_second': 87.529, 'epoch': 5.0}
+{'train_runtime': 136.0654, 'train_samples_per_second': 515.965, 'train_steps_per_second': 32.264, 'train_loss': 0.03183074719813527, 'epoch': 5.0}
+Precision: 0.9810, Recall: 0.9810, F1: 0.9810
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 7 on CoNLL-2003 NER =====
+{'loss': 0.1359, 'grad_norm': 0.5608219504356384, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.04958074539899826, 'eval_runtime': 2.3349, 'eval_samples_per_second': 1391.902, 'eval_steps_per_second': 87.369, 'epoch': 1.0}
+{'loss': 0.0519, 'grad_norm': 13.785207748413086, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0294, 'grad_norm': 0.9484809637069702, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.04507327824831009, 'eval_runtime': 2.331, 'eval_samples_per_second': 1394.265, 'eval_steps_per_second': 87.517, 'epoch': 2.0}
+{'loss': 0.02, 'grad_norm': 1.4718931913375854, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0129, 'grad_norm': 0.9743520617485046, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.04819643124938011, 'eval_runtime': 2.3297, 'eval_samples_per_second': 1395.052, 'eval_steps_per_second': 87.566, 'epoch': 3.0}
+{'loss': 0.0078, 'grad_norm': 0.007435222622007132, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0064, 'grad_norm': 0.013902849517762661, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.0496341846883297, 'eval_runtime': 2.3287, 'eval_samples_per_second': 1395.651, 'eval_steps_per_second': 87.604, 'epoch': 4.0}
+{'loss': 0.0035, 'grad_norm': 0.28108271956443787, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.05315418913960457, 'eval_runtime': 2.3264, 'eval_samples_per_second': 1396.99, 'eval_steps_per_second': 87.688, 'epoch': 5.0}
+{'train_runtime': 136.2861, 'train_samples_per_second': 515.129, 'train_steps_per_second': 32.212, 'train_loss': 0.03078322549072648, 'epoch': 5.0}
+Precision: 0.9813, Recall: 0.9813, F1: 0.9813
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 8 on CoNLL-2003 NER =====
+{'loss': 0.1409, 'grad_norm': 1.4703360795974731, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.05004312843084335, 'eval_runtime': 2.3324, 'eval_samples_per_second': 1393.413, 'eval_steps_per_second': 87.463, 'epoch': 1.0}
+{'loss': 0.0529, 'grad_norm': 2.212167501449585, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0305, 'grad_norm': 2.3626229763031006, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.04942651465535164, 'eval_runtime': 2.3302, 'eval_samples_per_second': 1394.701, 'eval_steps_per_second': 87.544, 'epoch': 2.0}
+{'loss': 0.0212, 'grad_norm': 0.5935033559799194, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0138, 'grad_norm': 1.2494261264801025, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.048448797315359116, 'eval_runtime': 2.3266, 'eval_samples_per_second': 1396.916, 'eval_steps_per_second': 87.683, 'epoch': 3.0}
+{'loss': 0.0082, 'grad_norm': 0.0061111049726605415, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0072, 'grad_norm': 0.15865424275398254, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.05233244597911835, 'eval_runtime': 2.3313, 'eval_samples_per_second': 1394.067, 'eval_steps_per_second': 87.505, 'epoch': 4.0}
+{'loss': 0.0032, 'grad_norm': 0.4398900270462036, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.054278112947940826, 'eval_runtime': 2.3294, 'eval_samples_per_second': 1395.214, 'eval_steps_per_second': 87.577, 'epoch': 5.0}
+{'train_runtime': 136.4568, 'train_samples_per_second': 514.485, 'train_steps_per_second': 32.171, 'train_loss': 0.03200429373830217, 'epoch': 5.0}
+Precision: 0.9807, Recall: 0.9807, F1: 0.9807
+
+completed conll03 
+
+
+===== Training bert-base-uncased seed 9 on CoNLL-2003 NER =====
+{'loss': 0.1335, 'grad_norm': 0.41870811581611633, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.05618156120181084, 'eval_runtime': 2.324, 'eval_samples_per_second': 1398.444, 'eval_steps_per_second': 87.779, 'epoch': 1.0}
+{'loss': 0.0511, 'grad_norm': 8.374001502990723, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.0301, 'grad_norm': 0.8386174440383911, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.04802442342042923, 'eval_runtime': 2.3273, 'eval_samples_per_second': 1396.468, 'eval_steps_per_second': 87.655, 'epoch': 2.0}
+{'loss': 0.0203, 'grad_norm': 0.11723513156175613, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0127, 'grad_norm': 0.20477984845638275, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.047843027859926224, 'eval_runtime': 2.3263, 'eval_samples_per_second': 1397.085, 'eval_steps_per_second': 87.694, 'epoch': 3.0}
+{'loss': 0.0078, 'grad_norm': 0.009164060465991497, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0065, 'grad_norm': 0.15499231219291687, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.05199635773897171, 'eval_runtime': 2.3281, 'eval_samples_per_second': 1396.015, 'eval_steps_per_second': 87.627, 'epoch': 4.0}
+{'loss': 0.0031, 'grad_norm': 0.3033575117588043, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.05413156375288963, 'eval_runtime': 2.3271, 'eval_samples_per_second': 1396.601, 'eval_steps_per_second': 87.664, 'epoch': 5.0}
+{'train_runtime': 137.0011, 'train_samples_per_second': 512.441, 'train_steps_per_second': 32.044, 'train_loss': 0.030505505645465197, 'epoch': 5.0}
+Precision: 0.9804, Recall: 0.9804, F1: 0.9804
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 0 on CoNLL-2003 NER =====
+{'loss': 0.2366, 'grad_norm': 0.9938827753067017, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.14755728840827942, 'eval_runtime': 2.3558, 'eval_samples_per_second': 1379.553, 'eval_steps_per_second': 86.593, 'epoch': 1.0}
+{'loss': 0.1367, 'grad_norm': 2.290506362915039, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.105, 'grad_norm': 1.5367027521133423, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.14028331637382507, 'eval_runtime': 2.3141, 'eval_samples_per_second': 1404.463, 'eval_steps_per_second': 88.157, 'epoch': 2.0}
+{'loss': 0.0855, 'grad_norm': 2.5604939460754395, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0677, 'grad_norm': 0.4785395860671997, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.1493537873029709, 'eval_runtime': 2.329, 'eval_samples_per_second': 1395.428, 'eval_steps_per_second': 87.59, 'epoch': 3.0}
+{'loss': 0.0508, 'grad_norm': 0.4124957323074341, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0446, 'grad_norm': 0.9356223940849304, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.1587357223033905, 'eval_runtime': 2.3168, 'eval_samples_per_second': 1402.808, 'eval_steps_per_second': 88.053, 'epoch': 4.0}
+{'loss': 0.0342, 'grad_norm': 1.7049527168273926, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.16678093373775482, 'eval_runtime': 2.3211, 'eval_samples_per_second': 1400.211, 'eval_steps_per_second': 87.89, 'epoch': 5.0}
+{'train_runtime': 136.0822, 'train_samples_per_second': 515.902, 'train_steps_per_second': 32.26, 'train_loss': 0.08967124834690658, 'epoch': 5.0}
+Precision: 0.9446, Recall: 0.9446, F1: 0.9446
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 1 on CoNLL-2003 NER =====
+{'loss': 0.2349, 'grad_norm': 1.4047942161560059, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.1485033482313156, 'eval_runtime': 2.324, 'eval_samples_per_second': 1398.471, 'eval_steps_per_second': 87.781, 'epoch': 1.0}
+{'loss': 0.1346, 'grad_norm': 1.3497353792190552, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.1041, 'grad_norm': 1.4877796173095703, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.1384354829788208, 'eval_runtime': 2.3203, 'eval_samples_per_second': 1400.657, 'eval_steps_per_second': 87.918, 'epoch': 2.0}
+{'loss': 0.0842, 'grad_norm': 1.5805414915084839, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.068, 'grad_norm': 0.446917861700058, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.1442343145608902, 'eval_runtime': 2.3161, 'eval_samples_per_second': 1403.251, 'eval_steps_per_second': 88.081, 'epoch': 3.0}
+{'loss': 0.0526, 'grad_norm': 0.31376004219055176, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0448, 'grad_norm': 1.140730619430542, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.15122012794017792, 'eval_runtime': 2.3239, 'eval_samples_per_second': 1398.524, 'eval_steps_per_second': 87.784, 'epoch': 4.0}
+{'loss': 0.0339, 'grad_norm': 0.9280339479446411, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.1647467017173767, 'eval_runtime': 2.3219, 'eval_samples_per_second': 1399.704, 'eval_steps_per_second': 87.858, 'epoch': 5.0}
+{'train_runtime': 135.9654, 'train_samples_per_second': 516.345, 'train_steps_per_second': 32.288, 'train_loss': 0.08922901218735818, 'epoch': 5.0}
+Precision: 0.9459, Recall: 0.9459, F1: 0.9459
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 2 on CoNLL-2003 NER =====
+{'loss': 0.2354, 'grad_norm': 0.918150782585144, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.14761780202388763, 'eval_runtime': 2.3218, 'eval_samples_per_second': 1399.796, 'eval_steps_per_second': 87.864, 'epoch': 1.0}
+{'loss': 0.1344, 'grad_norm': 1.332133412361145, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.1038, 'grad_norm': 1.047479271888733, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.13900768756866455, 'eval_runtime': 2.3225, 'eval_samples_per_second': 1399.36, 'eval_steps_per_second': 87.837, 'epoch': 2.0}
+{'loss': 0.0848, 'grad_norm': 0.9001054763793945, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.067, 'grad_norm': 0.653706967830658, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.14518417418003082, 'eval_runtime': 2.3212, 'eval_samples_per_second': 1400.108, 'eval_steps_per_second': 87.884, 'epoch': 3.0}
+{'loss': 0.0516, 'grad_norm': 0.4521840512752533, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0442, 'grad_norm': 1.2116115093231201, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.15550677478313446, 'eval_runtime': 2.3206, 'eval_samples_per_second': 1400.47, 'eval_steps_per_second': 87.906, 'epoch': 4.0}
+{'loss': 0.0346, 'grad_norm': 0.699924886226654, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.16454565525054932, 'eval_runtime': 2.324, 'eval_samples_per_second': 1398.456, 'eval_steps_per_second': 87.78, 'epoch': 5.0}
+{'train_runtime': 135.0463, 'train_samples_per_second': 519.859, 'train_steps_per_second': 32.507, 'train_loss': 0.08901119492863196, 'epoch': 5.0}
+Precision: 0.9470, Recall: 0.9470, F1: 0.9470
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 3 on CoNLL-2003 NER =====
+{'loss': 0.2407, 'grad_norm': 1.1261554956436157, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.14938536286354065, 'eval_runtime': 2.3161, 'eval_samples_per_second': 1403.205, 'eval_steps_per_second': 88.078, 'epoch': 1.0}
+{'loss': 0.1383, 'grad_norm': 3.674009084701538, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.1072, 'grad_norm': 2.136624574661255, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.14473514258861542, 'eval_runtime': 2.3237, 'eval_samples_per_second': 1398.602, 'eval_steps_per_second': 87.789, 'epoch': 2.0}
+{'loss': 0.0867, 'grad_norm': 1.216180443763733, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0691, 'grad_norm': 0.8986782431602478, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.1429634541273117, 'eval_runtime': 2.3184, 'eval_samples_per_second': 1401.81, 'eval_steps_per_second': 87.991, 'epoch': 3.0}
+{'loss': 0.0529, 'grad_norm': 0.4458937346935272, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0449, 'grad_norm': 1.3511019945144653, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.15598836541175842, 'eval_runtime': 2.3208, 'eval_samples_per_second': 1400.393, 'eval_steps_per_second': 87.902, 'epoch': 4.0}
+{'loss': 0.0346, 'grad_norm': 0.5540328025817871, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.16255630552768707, 'eval_runtime': 2.3251, 'eval_samples_per_second': 1397.773, 'eval_steps_per_second': 87.737, 'epoch': 5.0}
+{'train_runtime': 135.3178, 'train_samples_per_second': 518.816, 'train_steps_per_second': 32.442, 'train_loss': 0.09124632685494043, 'epoch': 5.0}
+Precision: 0.9456, Recall: 0.9456, F1: 0.9456
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 4 on CoNLL-2003 NER =====
+{'loss': 0.2383, 'grad_norm': 0.8498861789703369, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.1440151035785675, 'eval_runtime': 2.3241, 'eval_samples_per_second': 1398.371, 'eval_steps_per_second': 87.775, 'epoch': 1.0}
+{'loss': 0.1352, 'grad_norm': 2.1148364543914795, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.1043, 'grad_norm': 1.3259330987930298, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.13863308727741241, 'eval_runtime': 2.319, 'eval_samples_per_second': 1401.463, 'eval_steps_per_second': 87.969, 'epoch': 2.0}
+{'loss': 0.0855, 'grad_norm': 1.2396785020828247, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0673, 'grad_norm': 0.9836251139640808, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.14496088027954102, 'eval_runtime': 2.3226, 'eval_samples_per_second': 1399.286, 'eval_steps_per_second': 87.832, 'epoch': 3.0}
+{'loss': 0.0521, 'grad_norm': 0.3943357765674591, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0436, 'grad_norm': 0.8244641423225403, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.15424847602844238, 'eval_runtime': 2.3202, 'eval_samples_per_second': 1400.764, 'eval_steps_per_second': 87.925, 'epoch': 4.0}
+{'loss': 0.0339, 'grad_norm': 0.613315224647522, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.162408709526062, 'eval_runtime': 2.3174, 'eval_samples_per_second': 1402.434, 'eval_steps_per_second': 88.03, 'epoch': 5.0}
+{'train_runtime': 135.9307, 'train_samples_per_second': 516.476, 'train_steps_per_second': 32.296, 'train_loss': 0.08956950845913898, 'epoch': 5.0}
+Precision: 0.9467, Recall: 0.9467, F1: 0.9467
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 5 on CoNLL-2003 NER =====
+{'loss': 0.2483, 'grad_norm': 0.9109429121017456, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.1478554755449295, 'eval_runtime': 2.3273, 'eval_samples_per_second': 1396.494, 'eval_steps_per_second': 87.657, 'epoch': 1.0}
+{'loss': 0.1411, 'grad_norm': 1.4041517972946167, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.1071, 'grad_norm': 1.3173218965530396, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.14137722551822662, 'eval_runtime': 2.3234, 'eval_samples_per_second': 1398.788, 'eval_steps_per_second': 87.801, 'epoch': 2.0}
+{'loss': 0.0881, 'grad_norm': 2.9529919624328613, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0687, 'grad_norm': 0.48855310678482056, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.14727023243904114, 'eval_runtime': 2.3206, 'eval_samples_per_second': 1400.512, 'eval_steps_per_second': 87.909, 'epoch': 3.0}
+{'loss': 0.0531, 'grad_norm': 0.3457885980606079, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0452, 'grad_norm': 1.718801736831665, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.15474486351013184, 'eval_runtime': 2.3219, 'eval_samples_per_second': 1399.698, 'eval_steps_per_second': 87.858, 'epoch': 4.0}
+{'loss': 0.0354, 'grad_norm': 2.405043840408325, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.16258004307746887, 'eval_runtime': 2.3168, 'eval_samples_per_second': 1402.768, 'eval_steps_per_second': 88.051, 'epoch': 5.0}
+{'train_runtime': 135.1133, 'train_samples_per_second': 519.601, 'train_steps_per_second': 32.491, 'train_loss': 0.09272012819190231, 'epoch': 5.0}
+Precision: 0.9465, Recall: 0.9465, F1: 0.9465
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 6 on CoNLL-2003 NER =====
+{'loss': 0.25, 'grad_norm': 1.46796715259552, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.1481238305568695, 'eval_runtime': 2.3168, 'eval_samples_per_second': 1402.8, 'eval_steps_per_second': 88.053, 'epoch': 1.0}
+{'loss': 0.1425, 'grad_norm': 3.168980598449707, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.1075, 'grad_norm': 1.0655665397644043, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.1402006596326828, 'eval_runtime': 2.3228, 'eval_samples_per_second': 1399.193, 'eval_steps_per_second': 87.826, 'epoch': 2.0}
+{'loss': 0.0895, 'grad_norm': 2.540476083755493, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.07, 'grad_norm': 1.0403939485549927, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.14625781774520874, 'eval_runtime': 2.3262, 'eval_samples_per_second': 1397.126, 'eval_steps_per_second': 87.697, 'epoch': 3.0}
+{'loss': 0.0537, 'grad_norm': 0.28687360882759094, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.046, 'grad_norm': 1.6828935146331787, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.15611538290977478, 'eval_runtime': 2.3222, 'eval_samples_per_second': 1399.553, 'eval_steps_per_second': 87.849, 'epoch': 4.0}
+{'loss': 0.0357, 'grad_norm': 0.59086674451828, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.16399800777435303, 'eval_runtime': 2.325, 'eval_samples_per_second': 1397.849, 'eval_steps_per_second': 87.742, 'epoch': 5.0}
+{'train_runtime': 135.4331, 'train_samples_per_second': 518.374, 'train_steps_per_second': 32.415, 'train_loss': 0.09371453743589223, 'epoch': 5.0}
+Precision: 0.9460, Recall: 0.9460, F1: 0.9460
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 7 on CoNLL-2003 NER =====
+{'loss': 0.2449, 'grad_norm': 0.8664162158966064, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.14602088928222656, 'eval_runtime': 2.3168, 'eval_samples_per_second': 1402.774, 'eval_steps_per_second': 88.051, 'epoch': 1.0}
+{'loss': 0.1381, 'grad_norm': 2.23317551612854, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.1048, 'grad_norm': 1.3103870153427124, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.1392025649547577, 'eval_runtime': 2.3219, 'eval_samples_per_second': 1399.688, 'eval_steps_per_second': 87.857, 'epoch': 2.0}
+{'loss': 0.0856, 'grad_norm': 1.6109386682510376, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0676, 'grad_norm': 0.6264553070068359, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.14591941237449646, 'eval_runtime': 2.3227, 'eval_samples_per_second': 1399.234, 'eval_steps_per_second': 87.829, 'epoch': 3.0}
+{'loss': 0.0518, 'grad_norm': 0.35728636384010315, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0441, 'grad_norm': 1.9114854335784912, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.15887291729450226, 'eval_runtime': 2.3234, 'eval_samples_per_second': 1398.785, 'eval_steps_per_second': 87.801, 'epoch': 4.0}
+{'loss': 0.0344, 'grad_norm': 0.9157518148422241, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.16717934608459473, 'eval_runtime': 2.3236, 'eval_samples_per_second': 1398.683, 'eval_steps_per_second': 87.794, 'epoch': 5.0}
+{'train_runtime': 135.4425, 'train_samples_per_second': 518.338, 'train_steps_per_second': 32.412, 'train_loss': 0.09084825928499052, 'epoch': 5.0}
+Precision: 0.9455, Recall: 0.9455, F1: 0.9455
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 8 on CoNLL-2003 NER =====
+{'loss': 0.2339, 'grad_norm': 2.550753355026245, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.14615242183208466, 'eval_runtime': 2.3258, 'eval_samples_per_second': 1397.356, 'eval_steps_per_second': 87.711, 'epoch': 1.0}
+{'loss': 0.1367, 'grad_norm': 2.3971784114837646, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.104, 'grad_norm': 1.4327188730239868, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.1397731900215149, 'eval_runtime': 2.3213, 'eval_samples_per_second': 1400.052, 'eval_steps_per_second': 87.88, 'epoch': 2.0}
+{'loss': 0.0854, 'grad_norm': 1.9427038431167603, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0667, 'grad_norm': 1.444359540939331, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.14635728299617767, 'eval_runtime': 2.3293, 'eval_samples_per_second': 1395.242, 'eval_steps_per_second': 87.578, 'epoch': 3.0}
+{'loss': 0.051, 'grad_norm': 0.6072024703025818, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.044, 'grad_norm': 0.8481166958808899, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.15301306545734406, 'eval_runtime': 2.3186, 'eval_samples_per_second': 1401.712, 'eval_steps_per_second': 87.984, 'epoch': 4.0}
+{'loss': 0.034, 'grad_norm': 1.1900941133499146, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.16326187551021576, 'eval_runtime': 2.321, 'eval_samples_per_second': 1400.258, 'eval_steps_per_second': 87.893, 'epoch': 5.0}
+{'train_runtime': 135.3664, 'train_samples_per_second': 518.629, 'train_steps_per_second': 32.43, 'train_loss': 0.08899309140946164, 'epoch': 5.0}
+Precision: 0.9462, Recall: 0.9462, F1: 0.9462
+
+completed conll03 
+
+
+===== Training felflare/bert-restore-punctuation seed 9 on CoNLL-2003 NER =====
+{'loss': 0.2313, 'grad_norm': 0.8275250196456909, 'learning_rate': 4.4316628701594536e-05, 'epoch': 0.57}
+{'eval_loss': 0.1491265892982483, 'eval_runtime': 2.324, 'eval_samples_per_second': 1398.424, 'eval_steps_per_second': 87.778, 'epoch': 1.0}
+{'loss': 0.1362, 'grad_norm': 1.2545382976531982, 'learning_rate': 3.862186788154898e-05, 'epoch': 1.14}
+{'loss': 0.1052, 'grad_norm': 1.3127470016479492, 'learning_rate': 3.292710706150342e-05, 'epoch': 1.71}
+{'eval_loss': 0.1424667239189148, 'eval_runtime': 2.3269, 'eval_samples_per_second': 1396.723, 'eval_steps_per_second': 87.671, 'epoch': 2.0}
+{'loss': 0.0852, 'grad_norm': 2.6738016605377197, 'learning_rate': 2.723234624145786e-05, 'epoch': 2.28}
+{'loss': 0.0668, 'grad_norm': 0.5483837723731995, 'learning_rate': 2.1537585421412302e-05, 'epoch': 2.85}
+{'eval_loss': 0.14390206336975098, 'eval_runtime': 2.3223, 'eval_samples_per_second': 1399.457, 'eval_steps_per_second': 87.843, 'epoch': 3.0}
+{'loss': 0.0516, 'grad_norm': 0.388746976852417, 'learning_rate': 1.5842824601366744e-05, 'epoch': 3.42}
+{'loss': 0.0449, 'grad_norm': 0.9174405932426453, 'learning_rate': 1.0148063781321186e-05, 'epoch': 3.99}
+{'eval_loss': 0.1535549908876419, 'eval_runtime': 2.3188, 'eval_samples_per_second': 1401.572, 'eval_steps_per_second': 87.976, 'epoch': 4.0}
+{'loss': 0.0342, 'grad_norm': 0.6732708811759949, 'learning_rate': 4.4533029612756265e-06, 'epoch': 4.56}
+{'eval_loss': 0.16230998933315277, 'eval_runtime': 2.3253, 'eval_samples_per_second': 1397.665, 'eval_steps_per_second': 87.73, 'epoch': 5.0}
+{'train_runtime': 135.4985, 'train_samples_per_second': 518.124, 'train_steps_per_second': 32.399, 'train_loss': 0.08913290723309701, 'epoch': 5.0}
+Precision: 0.9470, Recall: 0.9470, F1: 0.9470
+
+completed conll03 
+

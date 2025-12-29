@@ -1,0 +1,420 @@
+
+===== Training bert-base-uncased seed 0 on GENIA NER =====
+{'loss': 0.3123, 'grad_norm': 1.9569963216781616, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.1856963336467743, 'eval_runtime': 3.3742, 'eval_samples_per_second': 494.631, 'eval_steps_per_second': 31.118, 'epoch': 1.0}
+{'loss': 0.1995, 'grad_norm': 3.0971219539642334, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1541, 'grad_norm': 2.114290952682495, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.18877668678760529, 'eval_runtime': 3.347, 'eval_samples_per_second': 498.653, 'eval_steps_per_second': 31.371, 'epoch': 2.0}
+{'loss': 0.1396, 'grad_norm': 0.9170711040496826, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1104, 'grad_norm': 1.6283154487609863, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.20042400062084198, 'eval_runtime': 3.3632, 'eval_samples_per_second': 496.252, 'eval_steps_per_second': 31.22, 'epoch': 3.0}
+{'loss': 0.0968, 'grad_norm': 0.8571628332138062, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0787, 'grad_norm': 3.2774903774261475, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.22724924981594086, 'eval_runtime': 3.3572, 'eval_samples_per_second': 497.144, 'eval_steps_per_second': 31.276, 'epoch': 4.0}
+{'loss': 0.0661, 'grad_norm': 0.9995379447937012, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0534, 'grad_norm': 0.5447167754173279, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.24625371396541595, 'eval_runtime': 3.4144, 'eval_samples_per_second': 488.818, 'eval_steps_per_second': 30.753, 'epoch': 5.0}
+{'train_runtime': 516.2551, 'train_samples_per_second': 145.5, 'train_steps_per_second': 9.094, 'train_loss': 0.1312726501204843, 'epoch': 5.0}
+Precision: 0.9140, Recall: 0.9126, F1: 0.9133
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 1 on GENIA NER =====
+{'loss': 0.3048, 'grad_norm': 2.158963441848755, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.18627944588661194, 'eval_runtime': 3.3791, 'eval_samples_per_second': 493.923, 'eval_steps_per_second': 31.074, 'epoch': 1.0}
+{'loss': 0.1984, 'grad_norm': 1.0817348957061768, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1525, 'grad_norm': 2.2826976776123047, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.1883445382118225, 'eval_runtime': 3.3703, 'eval_samples_per_second': 495.209, 'eval_steps_per_second': 31.155, 'epoch': 2.0}
+{'loss': 0.139, 'grad_norm': 1.125242829322815, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1107, 'grad_norm': 1.3078502416610718, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.2027585655450821, 'eval_runtime': 3.3738, 'eval_samples_per_second': 494.689, 'eval_steps_per_second': 31.122, 'epoch': 3.0}
+{'loss': 0.0967, 'grad_norm': 1.181427001953125, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0779, 'grad_norm': 2.785827875137329, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.22484718263149261, 'eval_runtime': 3.3705, 'eval_samples_per_second': 495.179, 'eval_steps_per_second': 31.153, 'epoch': 4.0}
+{'loss': 0.0651, 'grad_norm': 0.8586210012435913, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0527, 'grad_norm': 2.0707266330718994, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.24806971848011017, 'eval_runtime': 3.3662, 'eval_samples_per_second': 495.81, 'eval_steps_per_second': 31.192, 'epoch': 5.0}
+{'train_runtime': 515.4851, 'train_samples_per_second': 145.717, 'train_steps_per_second': 9.108, 'train_loss': 0.129851482419795, 'epoch': 5.0}
+Precision: 0.9135, Recall: 0.9119, F1: 0.9127
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 2 on GENIA NER =====
+{'loss': 0.3151, 'grad_norm': 1.5213043689727783, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.18594859540462494, 'eval_runtime': 3.3529, 'eval_samples_per_second': 497.781, 'eval_steps_per_second': 31.316, 'epoch': 1.0}
+{'loss': 0.199, 'grad_norm': 3.603102445602417, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1551, 'grad_norm': 2.4356272220611572, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.18982547521591187, 'eval_runtime': 3.3508, 'eval_samples_per_second': 498.093, 'eval_steps_per_second': 31.336, 'epoch': 2.0}
+{'loss': 0.14, 'grad_norm': 0.9683045148849487, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1108, 'grad_norm': 2.1154427528381348, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.2038446068763733, 'eval_runtime': 3.3407, 'eval_samples_per_second': 499.594, 'eval_steps_per_second': 31.43, 'epoch': 3.0}
+{'loss': 0.0974, 'grad_norm': 0.8312202095985413, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0784, 'grad_norm': 5.1692423820495605, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.2263760268688202, 'eval_runtime': 3.3574, 'eval_samples_per_second': 497.105, 'eval_steps_per_second': 31.274, 'epoch': 4.0}
+{'loss': 0.0657, 'grad_norm': 1.5494462251663208, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0541, 'grad_norm': 0.6132649183273315, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.25122958421707153, 'eval_runtime': 3.364, 'eval_samples_per_second': 496.132, 'eval_steps_per_second': 31.213, 'epoch': 5.0}
+{'train_runtime': 515.075, 'train_samples_per_second': 145.833, 'train_steps_per_second': 9.115, 'train_loss': 0.1317583376607194, 'epoch': 5.0}
+Precision: 0.9155, Recall: 0.9138, F1: 0.9146
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 3 on GENIA NER =====
+{'loss': 0.3075, 'grad_norm': 1.7905572652816772, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.1815280020236969, 'eval_runtime': 3.3578, 'eval_samples_per_second': 497.052, 'eval_steps_per_second': 31.271, 'epoch': 1.0}
+{'loss': 0.2, 'grad_norm': 1.649328351020813, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.155, 'grad_norm': 2.4608898162841797, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.18871371448040009, 'eval_runtime': 3.3561, 'eval_samples_per_second': 497.304, 'eval_steps_per_second': 31.286, 'epoch': 2.0}
+{'loss': 0.1411, 'grad_norm': 0.9239755868911743, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1122, 'grad_norm': 1.506946086883545, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.19915065169334412, 'eval_runtime': 3.5326, 'eval_samples_per_second': 472.457, 'eval_steps_per_second': 29.723, 'epoch': 3.0}
+{'loss': 0.0978, 'grad_norm': 1.152562141418457, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0793, 'grad_norm': 4.495851516723633, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.23127040266990662, 'eval_runtime': 3.3594, 'eval_samples_per_second': 496.818, 'eval_steps_per_second': 31.256, 'epoch': 4.0}
+{'loss': 0.0674, 'grad_norm': 0.7853545546531677, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0544, 'grad_norm': 2.1124227046966553, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.24774228036403656, 'eval_runtime': 3.3645, 'eval_samples_per_second': 496.061, 'eval_steps_per_second': 31.208, 'epoch': 5.0}
+{'train_runtime': 515.8329, 'train_samples_per_second': 145.619, 'train_steps_per_second': 9.102, 'train_loss': 0.13175724565792388, 'epoch': 5.0}
+Precision: 0.9141, Recall: 0.9121, F1: 0.9131
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 4 on GENIA NER =====
+{'loss': 0.3098, 'grad_norm': 1.4551078081130981, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.1799241304397583, 'eval_runtime': 3.3649, 'eval_samples_per_second': 495.997, 'eval_steps_per_second': 31.204, 'epoch': 1.0}
+{'loss': 0.1987, 'grad_norm': 1.3327867984771729, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1541, 'grad_norm': 2.1337718963623047, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.18595390021800995, 'eval_runtime': 3.36, 'eval_samples_per_second': 496.721, 'eval_steps_per_second': 31.25, 'epoch': 2.0}
+{'loss': 0.1396, 'grad_norm': 1.3620045185089111, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1115, 'grad_norm': 1.5309332609176636, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.20085906982421875, 'eval_runtime': 3.3566, 'eval_samples_per_second': 497.231, 'eval_steps_per_second': 31.282, 'epoch': 3.0}
+{'loss': 0.0967, 'grad_norm': 0.8847706317901611, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0782, 'grad_norm': 1.8999613523483276, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.22376087307929993, 'eval_runtime': 3.3452, 'eval_samples_per_second': 498.926, 'eval_steps_per_second': 31.388, 'epoch': 4.0}
+{'loss': 0.0673, 'grad_norm': 1.0843510627746582, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.054, 'grad_norm': 1.1911779642105103, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2482997179031372, 'eval_runtime': 3.362, 'eval_samples_per_second': 496.431, 'eval_steps_per_second': 31.231, 'epoch': 5.0}
+{'train_runtime': 516.2749, 'train_samples_per_second': 145.494, 'train_steps_per_second': 9.094, 'train_loss': 0.1312089075041782, 'epoch': 5.0}
+Precision: 0.9143, Recall: 0.9124, F1: 0.9133
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 5 on GENIA NER =====
+{'loss': 0.308, 'grad_norm': 1.6486433744430542, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.18271885812282562, 'eval_runtime': 3.3579, 'eval_samples_per_second': 497.04, 'eval_steps_per_second': 31.27, 'epoch': 1.0}
+{'loss': 0.1993, 'grad_norm': 1.7808566093444824, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1543, 'grad_norm': 1.9640395641326904, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.18649901449680328, 'eval_runtime': 3.3632, 'eval_samples_per_second': 496.258, 'eval_steps_per_second': 31.221, 'epoch': 2.0}
+{'loss': 0.1403, 'grad_norm': 0.8721526265144348, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1108, 'grad_norm': 2.2452049255371094, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.20384660363197327, 'eval_runtime': 3.3607, 'eval_samples_per_second': 496.621, 'eval_steps_per_second': 31.243, 'epoch': 3.0}
+{'loss': 0.0977, 'grad_norm': 1.2845685482025146, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.078, 'grad_norm': 1.9634541273117065, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.22402915358543396, 'eval_runtime': 3.3546, 'eval_samples_per_second': 497.52, 'eval_steps_per_second': 31.3, 'epoch': 4.0}
+{'loss': 0.0668, 'grad_norm': 1.042129635810852, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0537, 'grad_norm': 0.6541810035705566, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.24946247041225433, 'eval_runtime': 3.3559, 'eval_samples_per_second': 497.34, 'eval_steps_per_second': 31.289, 'epoch': 5.0}
+{'train_runtime': 515.5863, 'train_samples_per_second': 145.689, 'train_steps_per_second': 9.106, 'train_loss': 0.13101432138103775, 'epoch': 5.0}
+Precision: 0.9140, Recall: 0.9126, F1: 0.9133
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 6 on GENIA NER =====
+{'loss': 0.3057, 'grad_norm': 1.7943058013916016, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.1835588812828064, 'eval_runtime': 3.3524, 'eval_samples_per_second': 497.857, 'eval_steps_per_second': 31.321, 'epoch': 1.0}
+{'loss': 0.1968, 'grad_norm': 2.3007214069366455, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1533, 'grad_norm': 2.755174160003662, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.18611197173595428, 'eval_runtime': 3.3609, 'eval_samples_per_second': 496.598, 'eval_steps_per_second': 31.242, 'epoch': 2.0}
+{'loss': 0.1393, 'grad_norm': 0.9389975666999817, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1108, 'grad_norm': 1.2950539588928223, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.20210027694702148, 'eval_runtime': 3.3682, 'eval_samples_per_second': 495.519, 'eval_steps_per_second': 31.174, 'epoch': 3.0}
+{'loss': 0.0957, 'grad_norm': 1.327899694442749, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0775, 'grad_norm': 2.0361831188201904, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.21929551661014557, 'eval_runtime': 3.3958, 'eval_samples_per_second': 491.485, 'eval_steps_per_second': 30.92, 'epoch': 4.0}
+{'loss': 0.0664, 'grad_norm': 1.6230882406234741, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0534, 'grad_norm': 0.7620962262153625, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2480856329202652, 'eval_runtime': 3.3582, 'eval_samples_per_second': 496.99, 'eval_steps_per_second': 31.267, 'epoch': 5.0}
+{'train_runtime': 515.4927, 'train_samples_per_second': 145.715, 'train_steps_per_second': 9.108, 'train_loss': 0.12993954220772805, 'epoch': 5.0}
+Precision: 0.9144, Recall: 0.9124, F1: 0.9134
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 7 on GENIA NER =====
+{'loss': 0.3115, 'grad_norm': 1.6429529190063477, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.18578706681728363, 'eval_runtime': 3.2888, 'eval_samples_per_second': 507.487, 'eval_steps_per_second': 31.927, 'epoch': 1.0}
+{'loss': 0.1982, 'grad_norm': 1.1647045612335205, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.154, 'grad_norm': 2.1302897930145264, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.18651436269283295, 'eval_runtime': 3.3655, 'eval_samples_per_second': 495.917, 'eval_steps_per_second': 31.199, 'epoch': 2.0}
+{'loss': 0.1395, 'grad_norm': 1.0200916528701782, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.111, 'grad_norm': 5.003284931182861, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.20298652350902557, 'eval_runtime': 3.3627, 'eval_samples_per_second': 496.332, 'eval_steps_per_second': 31.225, 'epoch': 3.0}
+{'loss': 0.0962, 'grad_norm': 1.4856959581375122, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0781, 'grad_norm': 4.521299839019775, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.22520649433135986, 'eval_runtime': 3.3548, 'eval_samples_per_second': 497.493, 'eval_steps_per_second': 31.298, 'epoch': 4.0}
+{'loss': 0.0659, 'grad_norm': 0.9439102411270142, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0534, 'grad_norm': 0.6181532144546509, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2507205009460449, 'eval_runtime': 3.3677, 'eval_samples_per_second': 495.594, 'eval_steps_per_second': 31.179, 'epoch': 5.0}
+{'train_runtime': 514.7798, 'train_samples_per_second': 145.917, 'train_steps_per_second': 9.12, 'train_loss': 0.13092300630352113, 'epoch': 5.0}
+Precision: 0.9111, Recall: 0.9098, F1: 0.9105
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 8 on GENIA NER =====
+{'loss': 0.3081, 'grad_norm': 1.5732611417770386, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.18536436557769775, 'eval_runtime': 3.3711, 'eval_samples_per_second': 495.093, 'eval_steps_per_second': 31.147, 'epoch': 1.0}
+{'loss': 0.1985, 'grad_norm': 1.3204838037490845, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1551, 'grad_norm': 2.393512725830078, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.1822361797094345, 'eval_runtime': 3.3505, 'eval_samples_per_second': 498.137, 'eval_steps_per_second': 31.339, 'epoch': 2.0}
+{'loss': 0.1386, 'grad_norm': 1.1341378688812256, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1101, 'grad_norm': 1.8236558437347412, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.20607206225395203, 'eval_runtime': 3.3532, 'eval_samples_per_second': 497.738, 'eval_steps_per_second': 31.314, 'epoch': 3.0}
+{'loss': 0.0964, 'grad_norm': 1.1444084644317627, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0788, 'grad_norm': 4.931540012359619, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.23115041851997375, 'eval_runtime': 3.3666, 'eval_samples_per_second': 495.747, 'eval_steps_per_second': 31.188, 'epoch': 4.0}
+{'loss': 0.0662, 'grad_norm': 1.389076828956604, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.053, 'grad_norm': 2.0929172039031982, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2550719082355499, 'eval_runtime': 3.3437, 'eval_samples_per_second': 499.141, 'eval_steps_per_second': 31.402, 'epoch': 5.0}
+{'train_runtime': 513.9786, 'train_samples_per_second': 146.144, 'train_steps_per_second': 9.135, 'train_loss': 0.13060711260420826, 'epoch': 5.0}
+Precision: 0.9133, Recall: 0.9117, F1: 0.9125
+
+completed genia_ner 
+
+
+===== Training bert-base-uncased seed 9 on GENIA NER =====
+{'loss': 0.3079, 'grad_norm': 1.8615971803665161, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.184565007686615, 'eval_runtime': 3.3444, 'eval_samples_per_second': 499.047, 'eval_steps_per_second': 31.396, 'epoch': 1.0}
+{'loss': 0.2005, 'grad_norm': 1.7283717393875122, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.155, 'grad_norm': 2.3641695976257324, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.18708547949790955, 'eval_runtime': 3.3493, 'eval_samples_per_second': 498.31, 'eval_steps_per_second': 31.35, 'epoch': 2.0}
+{'loss': 0.1405, 'grad_norm': 1.0173553228378296, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1111, 'grad_norm': 1.3422904014587402, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.20063930749893188, 'eval_runtime': 3.3477, 'eval_samples_per_second': 498.555, 'eval_steps_per_second': 31.365, 'epoch': 3.0}
+{'loss': 0.0981, 'grad_norm': 2.0797970294952393, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.0794, 'grad_norm': 5.24977970123291, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.22963847219944, 'eval_runtime': 3.3522, 'eval_samples_per_second': 497.885, 'eval_steps_per_second': 31.323, 'epoch': 4.0}
+{'loss': 0.0662, 'grad_norm': 1.4834600687026978, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0535, 'grad_norm': 0.4712773561477661, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2501627504825592, 'eval_runtime': 3.3519, 'eval_samples_per_second': 497.928, 'eval_steps_per_second': 31.326, 'epoch': 5.0}
+{'train_runtime': 514.5382, 'train_samples_per_second': 145.985, 'train_steps_per_second': 9.125, 'train_loss': 0.1314571427334104, 'epoch': 5.0}
+Precision: 0.9128, Recall: 0.9107, F1: 0.9117
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 0 on GENIA NER =====
+{'loss': 0.3432, 'grad_norm': 1.6126407384872437, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.21194353699684143, 'eval_runtime': 3.3544, 'eval_samples_per_second': 497.557, 'eval_steps_per_second': 31.302, 'epoch': 1.0}
+{'loss': 0.2336, 'grad_norm': 2.1480541229248047, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1894, 'grad_norm': 2.988293409347534, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.21274690330028534, 'eval_runtime': 3.3306, 'eval_samples_per_second': 501.111, 'eval_steps_per_second': 31.526, 'epoch': 2.0}
+{'loss': 0.1733, 'grad_norm': 1.1027278900146484, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1406, 'grad_norm': 2.0685269832611084, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.22690348327159882, 'eval_runtime': 3.3401, 'eval_samples_per_second': 499.686, 'eval_steps_per_second': 31.436, 'epoch': 3.0}
+{'loss': 0.1234, 'grad_norm': 1.0228006839752197, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1035, 'grad_norm': 1.9510531425476074, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.2473691999912262, 'eval_runtime': 3.3497, 'eval_samples_per_second': 498.256, 'eval_steps_per_second': 31.346, 'epoch': 4.0}
+{'loss': 0.0891, 'grad_norm': 2.2533562183380127, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0759, 'grad_norm': 0.6613618731498718, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2756953835487366, 'eval_runtime': 3.3555, 'eval_samples_per_second': 497.398, 'eval_steps_per_second': 31.292, 'epoch': 5.0}
+{'train_runtime': 514.8506, 'train_samples_per_second': 145.897, 'train_steps_per_second': 9.119, 'train_loss': 0.1600086303564687, 'epoch': 5.0}
+Precision: 0.9049, Recall: 0.9029, F1: 0.9039
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 1 on GENIA NER =====
+{'loss': 0.339, 'grad_norm': 1.4213436841964722, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.2115357667207718, 'eval_runtime': 3.3573, 'eval_samples_per_second': 497.123, 'eval_steps_per_second': 31.275, 'epoch': 1.0}
+{'loss': 0.2333, 'grad_norm': 1.7467067241668701, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1886, 'grad_norm': 2.4608044624328613, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.21114693582057953, 'eval_runtime': 3.3551, 'eval_samples_per_second': 497.455, 'eval_steps_per_second': 31.296, 'epoch': 2.0}
+{'loss': 0.1724, 'grad_norm': 1.1474249362945557, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1402, 'grad_norm': 1.6795408725738525, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.22300080955028534, 'eval_runtime': 3.3636, 'eval_samples_per_second': 496.191, 'eval_steps_per_second': 31.216, 'epoch': 3.0}
+{'loss': 0.1231, 'grad_norm': 2.529432535171509, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1024, 'grad_norm': 2.5694491863250732, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.24433131515979767, 'eval_runtime': 3.3621, 'eval_samples_per_second': 496.411, 'eval_steps_per_second': 31.23, 'epoch': 4.0}
+{'loss': 0.0873, 'grad_norm': 2.246856212615967, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0746, 'grad_norm': 0.7984963059425354, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2666258215904236, 'eval_runtime': 3.3475, 'eval_samples_per_second': 498.579, 'eval_steps_per_second': 31.367, 'epoch': 5.0}
+{'train_runtime': 514.5042, 'train_samples_per_second': 145.995, 'train_steps_per_second': 9.125, 'train_loss': 0.1587855809285872, 'epoch': 5.0}
+Precision: 0.9039, Recall: 0.9020, F1: 0.9030
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 2 on GENIA NER =====
+{'loss': 0.3407, 'grad_norm': 1.8958063125610352, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.21589148044586182, 'eval_runtime': 3.3584, 'eval_samples_per_second': 496.966, 'eval_steps_per_second': 31.265, 'epoch': 1.0}
+{'loss': 0.2349, 'grad_norm': 1.6153266429901123, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1895, 'grad_norm': 2.4240572452545166, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.2075076401233673, 'eval_runtime': 3.3324, 'eval_samples_per_second': 500.845, 'eval_steps_per_second': 31.509, 'epoch': 2.0}
+{'loss': 0.1723, 'grad_norm': 1.1318694353103638, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1409, 'grad_norm': 2.2731120586395264, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.221670001745224, 'eval_runtime': 3.3667, 'eval_samples_per_second': 495.733, 'eval_steps_per_second': 31.188, 'epoch': 3.0}
+{'loss': 0.1233, 'grad_norm': 1.1662039756774902, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1034, 'grad_norm': 1.6447062492370605, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.24275051057338715, 'eval_runtime': 3.3569, 'eval_samples_per_second': 497.182, 'eval_steps_per_second': 31.279, 'epoch': 4.0}
+{'loss': 0.0882, 'grad_norm': 1.9791901111602783, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0745, 'grad_norm': 1.0008907318115234, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2663346529006958, 'eval_runtime': 3.3694, 'eval_samples_per_second': 495.336, 'eval_steps_per_second': 31.163, 'epoch': 5.0}
+{'train_runtime': 514.5722, 'train_samples_per_second': 145.976, 'train_steps_per_second': 9.124, 'train_loss': 0.15956799138468294, 'epoch': 5.0}
+Precision: 0.9042, Recall: 0.9023, F1: 0.9032
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 3 on GENIA NER =====
+{'loss': 0.3382, 'grad_norm': 2.054532051086426, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.21311335265636444, 'eval_runtime': 3.3672, 'eval_samples_per_second': 495.669, 'eval_steps_per_second': 31.183, 'epoch': 1.0}
+{'loss': 0.2337, 'grad_norm': 1.649717926979065, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1905, 'grad_norm': 2.4813709259033203, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.21559050679206848, 'eval_runtime': 3.3652, 'eval_samples_per_second': 495.959, 'eval_steps_per_second': 31.202, 'epoch': 2.0}
+{'loss': 0.1737, 'grad_norm': 1.2189617156982422, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1415, 'grad_norm': 1.669359803199768, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.22450555860996246, 'eval_runtime': 3.3525, 'eval_samples_per_second': 497.83, 'eval_steps_per_second': 31.319, 'epoch': 3.0}
+{'loss': 0.1238, 'grad_norm': 0.9778710007667542, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1046, 'grad_norm': 2.8857359886169434, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.24139313399791718, 'eval_runtime': 3.3599, 'eval_samples_per_second': 496.746, 'eval_steps_per_second': 31.251, 'epoch': 4.0}
+{'loss': 0.0881, 'grad_norm': 1.7872055768966675, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0752, 'grad_norm': 0.5685058236122131, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2664363980293274, 'eval_runtime': 3.5283, 'eval_samples_per_second': 473.034, 'eval_steps_per_second': 29.759, 'epoch': 5.0}
+{'train_runtime': 514.38, 'train_samples_per_second': 146.03, 'train_steps_per_second': 9.127, 'train_loss': 0.15971657770256392, 'epoch': 5.0}
+Precision: 0.9023, Recall: 0.9004, F1: 0.9013
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 4 on GENIA NER =====
+{'loss': 0.3403, 'grad_norm': 1.907586693763733, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.2176256626844406, 'eval_runtime': 3.3556, 'eval_samples_per_second': 497.378, 'eval_steps_per_second': 31.291, 'epoch': 1.0}
+{'loss': 0.234, 'grad_norm': 1.767441987991333, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1892, 'grad_norm': 2.9139466285705566, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.21897345781326294, 'eval_runtime': 3.3415, 'eval_samples_per_second': 499.47, 'eval_steps_per_second': 31.423, 'epoch': 2.0}
+{'loss': 0.1726, 'grad_norm': 1.3210393190383911, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1405, 'grad_norm': 3.3234810829162598, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.21845705807209015, 'eval_runtime': 3.3205, 'eval_samples_per_second': 502.637, 'eval_steps_per_second': 31.622, 'epoch': 3.0}
+{'loss': 0.1252, 'grad_norm': 1.054732084274292, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1037, 'grad_norm': 3.454739570617676, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.2473614513874054, 'eval_runtime': 3.3581, 'eval_samples_per_second': 497.004, 'eval_steps_per_second': 31.267, 'epoch': 4.0}
+{'loss': 0.088, 'grad_norm': 1.7375200986862183, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0763, 'grad_norm': 0.5739550590515137, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2727006673812866, 'eval_runtime': 3.3666, 'eval_samples_per_second': 495.752, 'eval_steps_per_second': 31.189, 'epoch': 5.0}
+{'train_runtime': 513.8658, 'train_samples_per_second': 146.176, 'train_steps_per_second': 9.137, 'train_loss': 0.15979209388026033, 'epoch': 5.0}
+Precision: 0.9026, Recall: 0.9010, F1: 0.9018
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 5 on GENIA NER =====
+{'loss': 0.3477, 'grad_norm': 2.498668670654297, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.21917882561683655, 'eval_runtime': 3.3628, 'eval_samples_per_second': 496.317, 'eval_steps_per_second': 31.224, 'epoch': 1.0}
+{'loss': 0.2357, 'grad_norm': 1.996203899383545, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.189, 'grad_norm': 2.5122015476226807, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.20789280533790588, 'eval_runtime': 3.3544, 'eval_samples_per_second': 497.561, 'eval_steps_per_second': 31.303, 'epoch': 2.0}
+{'loss': 0.174, 'grad_norm': 1.1429864168167114, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1411, 'grad_norm': 3.2240140438079834, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.2240801751613617, 'eval_runtime': 3.3358, 'eval_samples_per_second': 500.323, 'eval_steps_per_second': 31.476, 'epoch': 3.0}
+{'loss': 0.1228, 'grad_norm': 1.0290464162826538, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1025, 'grad_norm': 3.340301036834717, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.23881368339061737, 'eval_runtime': 3.3579, 'eval_samples_per_second': 497.035, 'eval_steps_per_second': 31.269, 'epoch': 4.0}
+{'loss': 0.089, 'grad_norm': 1.4739285707473755, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0767, 'grad_norm': 0.5636038780212402, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2678118944168091, 'eval_runtime': 3.3673, 'eval_samples_per_second': 495.656, 'eval_steps_per_second': 31.183, 'epoch': 5.0}
+{'train_runtime': 514.6102, 'train_samples_per_second': 145.965, 'train_steps_per_second': 9.123, 'train_loss': 0.16066035350925498, 'epoch': 5.0}
+Precision: 0.9040, Recall: 0.9019, F1: 0.9030
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 6 on GENIA NER =====
+{'loss': 0.3432, 'grad_norm': 1.8782249689102173, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.21314142644405365, 'eval_runtime': 3.3465, 'eval_samples_per_second': 498.735, 'eval_steps_per_second': 31.376, 'epoch': 1.0}
+{'loss': 0.2348, 'grad_norm': 2.059697389602661, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1883, 'grad_norm': 3.2390809059143066, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.21762001514434814, 'eval_runtime': 3.3561, 'eval_samples_per_second': 497.303, 'eval_steps_per_second': 31.286, 'epoch': 2.0}
+{'loss': 0.1728, 'grad_norm': 1.0574578046798706, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1398, 'grad_norm': 1.3042253255844116, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.23475798964500427, 'eval_runtime': 3.2346, 'eval_samples_per_second': 515.986, 'eval_steps_per_second': 32.462, 'epoch': 3.0}
+{'loss': 0.1228, 'grad_norm': 2.307373523712158, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1018, 'grad_norm': 3.4458460807800293, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.2504339814186096, 'eval_runtime': 3.3713, 'eval_samples_per_second': 495.068, 'eval_steps_per_second': 31.146, 'epoch': 4.0}
+{'loss': 0.0865, 'grad_norm': 2.02809739112854, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0742, 'grad_norm': 0.6092888712882996, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.27588051557540894, 'eval_runtime': 3.3628, 'eval_samples_per_second': 496.312, 'eval_steps_per_second': 31.224, 'epoch': 5.0}
+{'train_runtime': 513.9532, 'train_samples_per_second': 146.151, 'train_steps_per_second': 9.135, 'train_loss': 0.15908834418803613, 'epoch': 5.0}
+Precision: 0.9025, Recall: 0.9006, F1: 0.9015
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 7 on GENIA NER =====
+{'loss': 0.3378, 'grad_norm': 2.062241315841675, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.21421416103839874, 'eval_runtime': 3.3673, 'eval_samples_per_second': 495.647, 'eval_steps_per_second': 31.182, 'epoch': 1.0}
+{'loss': 0.2332, 'grad_norm': 1.9127681255340576, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1886, 'grad_norm': 2.944599151611328, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.2166387140750885, 'eval_runtime': 3.356, 'eval_samples_per_second': 497.318, 'eval_steps_per_second': 31.287, 'epoch': 2.0}
+{'loss': 0.1718, 'grad_norm': 1.2625954151153564, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1419, 'grad_norm': 1.7403360605239868, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.22575624287128448, 'eval_runtime': 3.3639, 'eval_samples_per_second': 496.15, 'eval_steps_per_second': 31.214, 'epoch': 3.0}
+{'loss': 0.1233, 'grad_norm': 1.3185621500015259, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1037, 'grad_norm': 2.829023599624634, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.2472417950630188, 'eval_runtime': 3.3737, 'eval_samples_per_second': 494.715, 'eval_steps_per_second': 31.123, 'epoch': 4.0}
+{'loss': 0.0883, 'grad_norm': 1.9418631792068481, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0762, 'grad_norm': 0.8553985953330994, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.268823504447937, 'eval_runtime': 3.3761, 'eval_samples_per_second': 494.358, 'eval_steps_per_second': 31.101, 'epoch': 5.0}
+{'train_runtime': 515.2198, 'train_samples_per_second': 145.792, 'train_steps_per_second': 9.113, 'train_loss': 0.1592319017274184, 'epoch': 5.0}
+Precision: 0.9055, Recall: 0.9034, F1: 0.9045
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 8 on GENIA NER =====
+{'loss': 0.3381, 'grad_norm': 1.5031713247299194, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.21037982404232025, 'eval_runtime': 3.3642, 'eval_samples_per_second': 496.106, 'eval_steps_per_second': 31.211, 'epoch': 1.0}
+{'loss': 0.2328, 'grad_norm': 1.6584712266921997, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1879, 'grad_norm': 2.9388651847839355, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.20997688174247742, 'eval_runtime': 3.3728, 'eval_samples_per_second': 494.843, 'eval_steps_per_second': 31.132, 'epoch': 2.0}
+{'loss': 0.1718, 'grad_norm': 1.120001196861267, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1404, 'grad_norm': 2.0193979740142822, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.22332234680652618, 'eval_runtime': 3.3774, 'eval_samples_per_second': 494.171, 'eval_steps_per_second': 31.089, 'epoch': 3.0}
+{'loss': 0.1215, 'grad_norm': 1.1107828617095947, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1018, 'grad_norm': 2.5435523986816406, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.24735486507415771, 'eval_runtime': 3.364, 'eval_samples_per_second': 496.129, 'eval_steps_per_second': 31.212, 'epoch': 4.0}
+{'loss': 0.0866, 'grad_norm': 2.2250421047210693, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0738, 'grad_norm': 0.8730599284172058, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.26873376965522766, 'eval_runtime': 3.3699, 'eval_samples_per_second': 495.272, 'eval_steps_per_second': 31.159, 'epoch': 5.0}
+{'train_runtime': 515.888, 'train_samples_per_second': 145.603, 'train_steps_per_second': 9.101, 'train_loss': 0.1580548003077888, 'epoch': 5.0}
+Precision: 0.9032, Recall: 0.9017, F1: 0.9025
+
+completed genia_ner 
+
+
+===== Training felflare/bert-restore-punctuation seed 9 on GENIA NER =====
+{'loss': 0.3348, 'grad_norm': 2.143073320388794, 'learning_rate': 4.468583599574015e-05, 'epoch': 0.53}
+{'eval_loss': 0.21416619420051575, 'eval_runtime': 3.4085, 'eval_samples_per_second': 489.663, 'eval_steps_per_second': 30.806, 'epoch': 1.0}
+{'loss': 0.2334, 'grad_norm': 2.047508955001831, 'learning_rate': 3.9361022364217254e-05, 'epoch': 1.06}
+{'loss': 0.1895, 'grad_norm': 2.5325136184692383, 'learning_rate': 3.4036208732694355e-05, 'epoch': 1.6}
+{'eval_loss': 0.21005922555923462, 'eval_runtime': 3.3701, 'eval_samples_per_second': 495.243, 'eval_steps_per_second': 31.157, 'epoch': 2.0}
+{'loss': 0.1709, 'grad_norm': 1.0719926357269287, 'learning_rate': 2.8711395101171462e-05, 'epoch': 2.13}
+{'loss': 0.1401, 'grad_norm': 1.8950914144515991, 'learning_rate': 2.3386581469648563e-05, 'epoch': 2.66}
+{'eval_loss': 0.22662752866744995, 'eval_runtime': 3.3566, 'eval_samples_per_second': 497.229, 'eval_steps_per_second': 31.282, 'epoch': 3.0}
+{'loss': 0.1218, 'grad_norm': 0.9657155871391296, 'learning_rate': 1.8061767838125668e-05, 'epoch': 3.19}
+{'loss': 0.1025, 'grad_norm': 2.8362350463867188, 'learning_rate': 1.2736954206602768e-05, 'epoch': 3.73}
+{'eval_loss': 0.2470354586839676, 'eval_runtime': 3.3364, 'eval_samples_per_second': 500.24, 'eval_steps_per_second': 31.471, 'epoch': 4.0}
+{'loss': 0.0871, 'grad_norm': 1.9866688251495361, 'learning_rate': 7.412140575079872e-06, 'epoch': 4.26}
+{'loss': 0.0738, 'grad_norm': 0.5615919232368469, 'learning_rate': 2.0873269435569753e-06, 'epoch': 4.79}
+{'eval_loss': 0.2727169692516327, 'eval_runtime': 3.3565, 'eval_samples_per_second': 497.24, 'eval_steps_per_second': 31.282, 'epoch': 5.0}
+{'train_runtime': 515.464, 'train_samples_per_second': 145.723, 'train_steps_per_second': 9.108, 'train_loss': 0.15803707354365829, 'epoch': 5.0}
+Precision: 0.9042, Recall: 0.9024, F1: 0.9033
+
+completed genia_ner 
+
