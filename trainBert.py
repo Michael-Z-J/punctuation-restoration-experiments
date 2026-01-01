@@ -940,7 +940,7 @@ if __name__ == "__main__":
         "--model",
         type=str,
         default="bert-base-uncased",
-        help="what model to fine-tune (bert-base-uncased, felflare/bert-restore-punctuation)",
+        help="what model to fine-tune (bert-base-uncased, felflare/bert-restore-punctuation, xlm-roberta-base, oliverguhr/fullstop-punctuation-multilingual-base)",
     )
     parser.add_argument(
         "--task",
