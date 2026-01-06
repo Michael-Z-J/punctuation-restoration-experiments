@@ -1,0 +1,340 @@
+
+===== Training xlm-roberta-base seed 0 on CoNLL-2000 POS =====
+{'loss': 0.302, 'grad_norm': 3.9997806549072266, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06396173685789108, 'eval_runtime': 0.728, 'eval_samples_per_second': 1228.02, 'eval_steps_per_second': 76.923, 'epoch': 1.0}
+{'loss': 0.0569, 'grad_norm': 1.6685256958007812, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.048690877854824066, 'eval_runtime': 0.7162, 'eval_samples_per_second': 1248.296, 'eval_steps_per_second': 78.193, 'epoch': 2.0}
+{'loss': 0.0335, 'grad_norm': 1.295283555984497, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.05129549652338028, 'eval_runtime': 0.7138, 'eval_samples_per_second': 1252.471, 'eval_steps_per_second': 78.455, 'epoch': 3.0}
+{'loss': 0.0186, 'grad_norm': 0.7624304294586182, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.04847691208124161, 'eval_runtime': 0.7132, 'eval_samples_per_second': 1253.463, 'eval_steps_per_second': 78.517, 'epoch': 4.0}
+{'loss': 0.0115, 'grad_norm': 3.5978550910949707, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.05002264678478241, 'eval_runtime': 0.7126, 'eval_samples_per_second': 1254.531, 'eval_steps_per_second': 78.584, 'epoch': 5.0}
+{'train_runtime': 130.5789, 'train_samples_per_second': 307.975, 'train_steps_per_second': 19.26, 'train_loss': 0.08404656115393515, 'epoch': 5.0}
+Precision: 0.9873, Recall: 0.9873, F1: 0.9873
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 1 on CoNLL-2000 POS =====
+{'loss': 0.2958, 'grad_norm': 1.6865038871765137, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06527645885944366, 'eval_runtime': 0.7167, 'eval_samples_per_second': 1247.387, 'eval_steps_per_second': 78.136, 'epoch': 1.0}
+{'loss': 0.0566, 'grad_norm': 1.2368805408477783, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.048163287341594696, 'eval_runtime': 0.7165, 'eval_samples_per_second': 1247.679, 'eval_steps_per_second': 78.154, 'epoch': 2.0}
+{'loss': 0.0332, 'grad_norm': 0.17025993764400482, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.04819270223379135, 'eval_runtime': 0.7157, 'eval_samples_per_second': 1249.179, 'eval_steps_per_second': 78.248, 'epoch': 3.0}
+{'loss': 0.0191, 'grad_norm': 0.44198593497276306, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.04771358519792557, 'eval_runtime': 0.7137, 'eval_samples_per_second': 1252.687, 'eval_steps_per_second': 78.468, 'epoch': 4.0}
+{'loss': 0.0116, 'grad_norm': 0.6297727227210999, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.04817976802587509, 'eval_runtime': 0.7133, 'eval_samples_per_second': 1253.372, 'eval_steps_per_second': 78.511, 'epoch': 5.0}
+{'train_runtime': 130.2741, 'train_samples_per_second': 308.695, 'train_steps_per_second': 19.305, 'train_loss': 0.08283457267829486, 'epoch': 5.0}
+Precision: 0.9877, Recall: 0.9877, F1: 0.9877
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 2 on CoNLL-2000 POS =====
+{'loss': 0.3128, 'grad_norm': 1.5586870908737183, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06355979293584824, 'eval_runtime': 0.7148, 'eval_samples_per_second': 1250.78, 'eval_steps_per_second': 78.349, 'epoch': 1.0}
+{'loss': 0.0566, 'grad_norm': 2.846374750137329, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.04957390949130058, 'eval_runtime': 0.7143, 'eval_samples_per_second': 1251.528, 'eval_steps_per_second': 78.395, 'epoch': 2.0}
+{'loss': 0.0327, 'grad_norm': 0.2954787611961365, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.05105406045913696, 'eval_runtime': 0.7148, 'eval_samples_per_second': 1250.71, 'eval_steps_per_second': 78.344, 'epoch': 3.0}
+{'loss': 0.0191, 'grad_norm': 0.5861765742301941, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.050927795469760895, 'eval_runtime': 0.7136, 'eval_samples_per_second': 1252.729, 'eval_steps_per_second': 78.471, 'epoch': 4.0}
+{'loss': 0.0113, 'grad_norm': 0.8869807124137878, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.049603093415498734, 'eval_runtime': 0.7148, 'eval_samples_per_second': 1250.783, 'eval_steps_per_second': 78.349, 'epoch': 5.0}
+{'train_runtime': 130.3132, 'train_samples_per_second': 308.603, 'train_steps_per_second': 19.3, 'train_loss': 0.08605441329019445, 'epoch': 5.0}
+Precision: 0.9876, Recall: 0.9876, F1: 0.9876
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 3 on CoNLL-2000 POS =====
+{'loss': 0.2957, 'grad_norm': 1.9437503814697266, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06695292890071869, 'eval_runtime': 0.7163, 'eval_samples_per_second': 1248.059, 'eval_steps_per_second': 78.178, 'epoch': 1.0}
+{'loss': 0.0572, 'grad_norm': 1.9022053480148315, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.04719507694244385, 'eval_runtime': 0.7137, 'eval_samples_per_second': 1252.626, 'eval_steps_per_second': 78.464, 'epoch': 2.0}
+{'loss': 0.033, 'grad_norm': 0.7095775008201599, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.04735161364078522, 'eval_runtime': 0.7152, 'eval_samples_per_second': 1249.954, 'eval_steps_per_second': 78.297, 'epoch': 3.0}
+{'loss': 0.0188, 'grad_norm': 0.4394330084323883, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.0475129596889019, 'eval_runtime': 0.7168, 'eval_samples_per_second': 1247.205, 'eval_steps_per_second': 78.125, 'epoch': 4.0}
+{'loss': 0.0109, 'grad_norm': 0.9022306799888611, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.04894067719578743, 'eval_runtime': 0.7166, 'eval_samples_per_second': 1247.548, 'eval_steps_per_second': 78.146, 'epoch': 5.0}
+{'train_runtime': 130.6115, 'train_samples_per_second': 307.898, 'train_steps_per_second': 19.256, 'train_loss': 0.0826799247125034, 'epoch': 5.0}
+Precision: 0.9875, Recall: 0.9875, F1: 0.9875
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 4 on CoNLL-2000 POS =====
+{'loss': 0.3038, 'grad_norm': 1.677892804145813, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06627275794744492, 'eval_runtime': 0.7157, 'eval_samples_per_second': 1249.151, 'eval_steps_per_second': 78.247, 'epoch': 1.0}
+{'loss': 0.0606, 'grad_norm': 1.2984731197357178, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.04995879530906677, 'eval_runtime': 0.7154, 'eval_samples_per_second': 1249.703, 'eval_steps_per_second': 78.281, 'epoch': 2.0}
+{'loss': 0.0338, 'grad_norm': 0.20255587995052338, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.04955168068408966, 'eval_runtime': 0.714, 'eval_samples_per_second': 1252.035, 'eval_steps_per_second': 78.427, 'epoch': 3.0}
+{'loss': 0.0191, 'grad_norm': 0.49820825457572937, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.04950791597366333, 'eval_runtime': 0.7157, 'eval_samples_per_second': 1249.109, 'eval_steps_per_second': 78.244, 'epoch': 4.0}
+{'loss': 0.0114, 'grad_norm': 1.1923096179962158, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.04967599734663963, 'eval_runtime': 0.7152, 'eval_samples_per_second': 1249.968, 'eval_steps_per_second': 78.298, 'epoch': 5.0}
+{'train_runtime': 130.9941, 'train_samples_per_second': 306.999, 'train_steps_per_second': 19.199, 'train_loss': 0.08528338458618634, 'epoch': 5.0}
+Precision: 0.9872, Recall: 0.9872, F1: 0.9872
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 5 on CoNLL-2000 POS =====
+{'loss': 0.3031, 'grad_norm': 1.8040740489959717, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06628341972827911, 'eval_runtime': 0.7142, 'eval_samples_per_second': 1251.668, 'eval_steps_per_second': 78.404, 'epoch': 1.0}
+{'loss': 0.0585, 'grad_norm': 1.1460261344909668, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.050500400364398956, 'eval_runtime': 0.7146, 'eval_samples_per_second': 1251.097, 'eval_steps_per_second': 78.368, 'epoch': 2.0}
+{'loss': 0.0337, 'grad_norm': 0.22341160476207733, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.047067202627658844, 'eval_runtime': 0.7131, 'eval_samples_per_second': 1253.624, 'eval_steps_per_second': 78.527, 'epoch': 3.0}
+{'loss': 0.0193, 'grad_norm': 0.6253371834754944, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.04713025316596031, 'eval_runtime': 0.7129, 'eval_samples_per_second': 1254.095, 'eval_steps_per_second': 78.556, 'epoch': 4.0}
+{'loss': 0.0117, 'grad_norm': 0.9310768842697144, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.04813356697559357, 'eval_runtime': 0.7149, 'eval_samples_per_second': 1250.598, 'eval_steps_per_second': 78.337, 'epoch': 5.0}
+{'train_runtime': 131.2831, 'train_samples_per_second': 306.323, 'train_steps_per_second': 19.157, 'train_loss': 0.08481347449494167, 'epoch': 5.0}
+Precision: 0.9875, Recall: 0.9875, F1: 0.9875
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 6 on CoNLL-2000 POS =====
+{'loss': 0.29, 'grad_norm': 1.1913423538208008, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06432094424962997, 'eval_runtime': 0.7149, 'eval_samples_per_second': 1250.535, 'eval_steps_per_second': 78.333, 'epoch': 1.0}
+{'loss': 0.0557, 'grad_norm': 1.3407540321350098, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.04879751428961754, 'eval_runtime': 0.7132, 'eval_samples_per_second': 1253.48, 'eval_steps_per_second': 78.518, 'epoch': 2.0}
+{'loss': 0.0323, 'grad_norm': 1.194374442100525, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.047162722796201706, 'eval_runtime': 0.7141, 'eval_samples_per_second': 1251.903, 'eval_steps_per_second': 78.419, 'epoch': 3.0}
+{'loss': 0.0189, 'grad_norm': 0.34905171394348145, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.04736656695604324, 'eval_runtime': 0.7143, 'eval_samples_per_second': 1251.563, 'eval_steps_per_second': 78.398, 'epoch': 4.0}
+{'loss': 0.0113, 'grad_norm': 0.7699666023254395, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.04956085979938507, 'eval_runtime': 0.7127, 'eval_samples_per_second': 1254.37, 'eval_steps_per_second': 78.574, 'epoch': 5.0}
+{'train_runtime': 133.1605, 'train_samples_per_second': 302.004, 'train_steps_per_second': 18.887, 'train_loss': 0.08122118091132959, 'epoch': 5.0}
+Precision: 0.9876, Recall: 0.9876, F1: 0.9876
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 7 on CoNLL-2000 POS =====
+{'loss': 0.3142, 'grad_norm': 1.6744863986968994, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06697124987840652, 'eval_runtime': 0.7127, 'eval_samples_per_second': 1254.406, 'eval_steps_per_second': 78.576, 'epoch': 1.0}
+{'loss': 0.0598, 'grad_norm': 1.6494210958480835, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.04822961986064911, 'eval_runtime': 0.714, 'eval_samples_per_second': 1252.058, 'eval_steps_per_second': 78.429, 'epoch': 2.0}
+{'loss': 0.0339, 'grad_norm': 0.9598070979118347, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.047795094549655914, 'eval_runtime': 0.7147, 'eval_samples_per_second': 1250.822, 'eval_steps_per_second': 78.351, 'epoch': 3.0}
+{'loss': 0.0195, 'grad_norm': 0.30899858474731445, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.046645138412714005, 'eval_runtime': 0.7146, 'eval_samples_per_second': 1251.128, 'eval_steps_per_second': 78.37, 'epoch': 4.0}
+{'loss': 0.0118, 'grad_norm': 0.7407249212265015, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.04796180874109268, 'eval_runtime': 0.7175, 'eval_samples_per_second': 1245.998, 'eval_steps_per_second': 78.049, 'epoch': 5.0}
+{'train_runtime': 130.8262, 'train_samples_per_second': 307.393, 'train_steps_per_second': 19.224, 'train_loss': 0.087367876641319, 'epoch': 5.0}
+Precision: 0.9871, Recall: 0.9871, F1: 0.9871
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 8 on CoNLL-2000 POS =====
+{'loss': 0.2879, 'grad_norm': 1.3758442401885986, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06436925381422043, 'eval_runtime': 0.7137, 'eval_samples_per_second': 1252.663, 'eval_steps_per_second': 78.467, 'epoch': 1.0}
+{'loss': 0.0567, 'grad_norm': 1.4773331880569458, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.04909469187259674, 'eval_runtime': 0.7136, 'eval_samples_per_second': 1252.887, 'eval_steps_per_second': 78.481, 'epoch': 2.0}
+{'loss': 0.0328, 'grad_norm': 0.1279316395521164, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.04710761085152626, 'eval_runtime': 0.7134, 'eval_samples_per_second': 1253.103, 'eval_steps_per_second': 78.494, 'epoch': 3.0}
+{'loss': 0.0181, 'grad_norm': 0.4108935594558716, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.048864420503377914, 'eval_runtime': 0.713, 'eval_samples_per_second': 1253.794, 'eval_steps_per_second': 78.537, 'epoch': 4.0}
+{'loss': 0.011, 'grad_norm': 0.1911163330078125, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.049276433885097504, 'eval_runtime': 0.7156, 'eval_samples_per_second': 1249.375, 'eval_steps_per_second': 78.261, 'epoch': 5.0}
+{'train_runtime': 130.7116, 'train_samples_per_second': 307.662, 'train_steps_per_second': 19.241, 'train_loss': 0.08087046074701351, 'epoch': 5.0}
+Precision: 0.9877, Recall: 0.9877, F1: 0.9877
+
+completed conll00 
+
+
+===== Training xlm-roberta-base seed 9 on CoNLL-2000 POS =====
+{'loss': 0.2946, 'grad_norm': 2.027381181716919, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.06643816828727722, 'eval_runtime': 0.7127, 'eval_samples_per_second': 1254.387, 'eval_steps_per_second': 78.575, 'epoch': 1.0}
+{'loss': 0.0605, 'grad_norm': 1.9816542863845825, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.04851637780666351, 'eval_runtime': 0.7128, 'eval_samples_per_second': 1254.17, 'eval_steps_per_second': 78.561, 'epoch': 2.0}
+{'loss': 0.0335, 'grad_norm': 0.30073603987693787, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.047851331532001495, 'eval_runtime': 0.7133, 'eval_samples_per_second': 1253.376, 'eval_steps_per_second': 78.511, 'epoch': 3.0}
+{'loss': 0.0196, 'grad_norm': 0.2851795554161072, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.047528523951768875, 'eval_runtime': 0.713, 'eval_samples_per_second': 1253.882, 'eval_steps_per_second': 78.543, 'epoch': 4.0}
+{'loss': 0.0119, 'grad_norm': 0.6165938973426819, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.04917801916599274, 'eval_runtime': 0.7136, 'eval_samples_per_second': 1252.887, 'eval_steps_per_second': 78.481, 'epoch': 5.0}
+{'train_runtime': 131.5496, 'train_samples_per_second': 305.702, 'train_steps_per_second': 19.118, 'train_loss': 0.08356834130424629, 'epoch': 5.0}
+Precision: 0.9879, Recall: 0.9879, F1: 0.9879
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 0 on CoNLL-2000 POS =====
+{'loss': 0.3493, 'grad_norm': 2.1036925315856934, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07256480306386948, 'eval_runtime': 0.7281, 'eval_samples_per_second': 1227.909, 'eval_steps_per_second': 76.916, 'epoch': 1.0}
+{'loss': 0.0628, 'grad_norm': 1.7538264989852905, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.05294748768210411, 'eval_runtime': 0.7143, 'eval_samples_per_second': 1251.599, 'eval_steps_per_second': 78.4, 'epoch': 2.0}
+{'loss': 0.0369, 'grad_norm': 0.9237961173057556, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.04945676401257515, 'eval_runtime': 0.7136, 'eval_samples_per_second': 1252.787, 'eval_steps_per_second': 78.474, 'epoch': 3.0}
+{'loss': 0.0212, 'grad_norm': 1.2969521284103394, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.054398730397224426, 'eval_runtime': 0.7135, 'eval_samples_per_second': 1252.925, 'eval_steps_per_second': 78.483, 'epoch': 4.0}
+{'loss': 0.0141, 'grad_norm': 1.2398593425750732, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.05518144741654396, 'eval_runtime': 0.714, 'eval_samples_per_second': 1252.108, 'eval_steps_per_second': 78.432, 'epoch': 5.0}
+{'train_runtime': 130.5208, 'train_samples_per_second': 308.112, 'train_steps_per_second': 19.269, 'train_loss': 0.09636497208422742, 'epoch': 5.0}
+Precision: 0.9866, Recall: 0.9866, F1: 0.9866
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 1 on CoNLL-2000 POS =====
+{'loss': 0.3378, 'grad_norm': 1.4970848560333252, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07009107619524002, 'eval_runtime': 0.7217, 'eval_samples_per_second': 1238.75, 'eval_steps_per_second': 77.595, 'epoch': 1.0}
+{'loss': 0.0626, 'grad_norm': 0.9718053936958313, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.052176762372255325, 'eval_runtime': 0.7142, 'eval_samples_per_second': 1251.774, 'eval_steps_per_second': 78.411, 'epoch': 2.0}
+{'loss': 0.0367, 'grad_norm': 0.45169395208358765, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.04909684509038925, 'eval_runtime': 0.7157, 'eval_samples_per_second': 1249.069, 'eval_steps_per_second': 78.241, 'epoch': 3.0}
+{'loss': 0.0215, 'grad_norm': 1.0281777381896973, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.0540417917072773, 'eval_runtime': 0.7138, 'eval_samples_per_second': 1252.467, 'eval_steps_per_second': 78.454, 'epoch': 4.0}
+{'loss': 0.0139, 'grad_norm': 2.0567541122436523, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.05409959331154823, 'eval_runtime': 0.7144, 'eval_samples_per_second': 1251.383, 'eval_steps_per_second': 78.386, 'epoch': 5.0}
+{'train_runtime': 130.7278, 'train_samples_per_second': 307.624, 'train_steps_per_second': 19.238, 'train_loss': 0.09402253878401004, 'epoch': 5.0}
+Precision: 0.9869, Recall: 0.9869, F1: 0.9869
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 2 on CoNLL-2000 POS =====
+{'loss': 0.3361, 'grad_norm': 3.7996938228607178, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07136843353509903, 'eval_runtime': 0.7123, 'eval_samples_per_second': 1255.13, 'eval_steps_per_second': 78.621, 'epoch': 1.0}
+{'loss': 0.0647, 'grad_norm': 1.4549260139465332, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.05198632553219795, 'eval_runtime': 0.7124, 'eval_samples_per_second': 1254.948, 'eval_steps_per_second': 78.61, 'epoch': 2.0}
+{'loss': 0.0368, 'grad_norm': 1.3471355438232422, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.05128873139619827, 'eval_runtime': 0.7145, 'eval_samples_per_second': 1251.236, 'eval_steps_per_second': 78.377, 'epoch': 3.0}
+{'loss': 0.0221, 'grad_norm': 1.3166766166687012, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.05342602729797363, 'eval_runtime': 0.7131, 'eval_samples_per_second': 1253.758, 'eval_steps_per_second': 78.535, 'epoch': 4.0}
+{'loss': 0.0135, 'grad_norm': 0.8712298274040222, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.05451261252164841, 'eval_runtime': 0.7146, 'eval_samples_per_second': 1251.026, 'eval_steps_per_second': 78.364, 'epoch': 5.0}
+{'train_runtime': 130.7709, 'train_samples_per_second': 307.523, 'train_steps_per_second': 19.232, 'train_loss': 0.09415380542368348, 'epoch': 5.0}
+Precision: 0.9868, Recall: 0.9868, F1: 0.9868
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 3 on CoNLL-2000 POS =====
+{'loss': 0.3446, 'grad_norm': 1.9900972843170166, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07170315831899643, 'eval_runtime': 0.7139, 'eval_samples_per_second': 1252.31, 'eval_steps_per_second': 78.444, 'epoch': 1.0}
+{'loss': 0.064, 'grad_norm': 1.735743761062622, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.05395633354783058, 'eval_runtime': 0.7158, 'eval_samples_per_second': 1248.966, 'eval_steps_per_second': 78.235, 'epoch': 2.0}
+{'loss': 0.0377, 'grad_norm': 0.9214527606964111, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.05508050322532654, 'eval_runtime': 0.7131, 'eval_samples_per_second': 1253.624, 'eval_steps_per_second': 78.527, 'epoch': 3.0}
+{'loss': 0.0232, 'grad_norm': 1.6331536769866943, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.05455154925584793, 'eval_runtime': 0.7136, 'eval_samples_per_second': 1252.851, 'eval_steps_per_second': 78.478, 'epoch': 4.0}
+{'loss': 0.0148, 'grad_norm': 0.4417327642440796, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.05574854835867882, 'eval_runtime': 0.7122, 'eval_samples_per_second': 1255.26, 'eval_steps_per_second': 78.629, 'epoch': 5.0}
+{'train_runtime': 130.8595, 'train_samples_per_second': 307.314, 'train_steps_per_second': 19.219, 'train_loss': 0.09636222131209629, 'epoch': 5.0}
+Precision: 0.9868, Recall: 0.9868, F1: 0.9868
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 4 on CoNLL-2000 POS =====
+{'loss': 0.3616, 'grad_norm': 2.2045114040374756, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07200651615858078, 'eval_runtime': 0.7119, 'eval_samples_per_second': 1255.76, 'eval_steps_per_second': 78.661, 'epoch': 1.0}
+{'loss': 0.0659, 'grad_norm': 2.2654049396514893, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.0537257194519043, 'eval_runtime': 0.7113, 'eval_samples_per_second': 1256.778, 'eval_steps_per_second': 78.724, 'epoch': 2.0}
+{'loss': 0.0386, 'grad_norm': 0.6804753541946411, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.05239885300397873, 'eval_runtime': 0.713, 'eval_samples_per_second': 1253.789, 'eval_steps_per_second': 78.537, 'epoch': 3.0}
+{'loss': 0.0231, 'grad_norm': 0.6148625016212463, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.05319143086671829, 'eval_runtime': 0.7127, 'eval_samples_per_second': 1254.389, 'eval_steps_per_second': 78.575, 'epoch': 4.0}
+{'loss': 0.0143, 'grad_norm': 0.9947699308395386, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.05555258318781853, 'eval_runtime': 0.7126, 'eval_samples_per_second': 1254.491, 'eval_steps_per_second': 78.581, 'epoch': 5.0}
+{'train_runtime': 130.8378, 'train_samples_per_second': 307.365, 'train_steps_per_second': 19.222, 'train_loss': 0.10018107892267747, 'epoch': 5.0}
+Precision: 0.9868, Recall: 0.9868, F1: 0.9868
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 5 on CoNLL-2000 POS =====
+{'loss': 0.3626, 'grad_norm': 3.500397205352783, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07346469163894653, 'eval_runtime': 0.7129, 'eval_samples_per_second': 1254.046, 'eval_steps_per_second': 78.553, 'epoch': 1.0}
+{'loss': 0.0635, 'grad_norm': 1.4128756523132324, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.05552602559328079, 'eval_runtime': 0.7127, 'eval_samples_per_second': 1254.363, 'eval_steps_per_second': 78.573, 'epoch': 2.0}
+{'loss': 0.037, 'grad_norm': 0.8890299201011658, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.04939477518200874, 'eval_runtime': 0.7142, 'eval_samples_per_second': 1251.794, 'eval_steps_per_second': 78.412, 'epoch': 3.0}
+{'loss': 0.021, 'grad_norm': 0.5042604804039001, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.05450389161705971, 'eval_runtime': 0.7139, 'eval_samples_per_second': 1252.345, 'eval_steps_per_second': 78.447, 'epoch': 4.0}
+{'loss': 0.0137, 'grad_norm': 0.5549594759941101, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.05312264338135719, 'eval_runtime': 0.7136, 'eval_samples_per_second': 1252.8, 'eval_steps_per_second': 78.475, 'epoch': 5.0}
+{'train_runtime': 130.879, 'train_samples_per_second': 307.269, 'train_steps_per_second': 19.216, 'train_loss': 0.09903035154992022, 'epoch': 5.0}
+Precision: 0.9866, Recall: 0.9866, F1: 0.9866
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 6 on CoNLL-2000 POS =====
+{'loss': 0.3526, 'grad_norm': 2.3670196533203125, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07090150564908981, 'eval_runtime': 0.7126, 'eval_samples_per_second': 1254.555, 'eval_steps_per_second': 78.585, 'epoch': 1.0}
+{'loss': 0.0653, 'grad_norm': 1.3877688646316528, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.0526454858481884, 'eval_runtime': 0.7124, 'eval_samples_per_second': 1254.979, 'eval_steps_per_second': 78.612, 'epoch': 2.0}
+{'loss': 0.0358, 'grad_norm': 0.7368044853210449, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.049266017973423004, 'eval_runtime': 0.7124, 'eval_samples_per_second': 1254.978, 'eval_steps_per_second': 78.612, 'epoch': 3.0}
+{'loss': 0.0198, 'grad_norm': 1.1645617485046387, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.052979327738285065, 'eval_runtime': 0.7111, 'eval_samples_per_second': 1257.261, 'eval_steps_per_second': 78.755, 'epoch': 4.0}
+{'loss': 0.0123, 'grad_norm': 0.6321128606796265, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.054305315017700195, 'eval_runtime': 0.7115, 'eval_samples_per_second': 1256.509, 'eval_steps_per_second': 78.708, 'epoch': 5.0}
+{'train_runtime': 131.0692, 'train_samples_per_second': 306.823, 'train_steps_per_second': 19.188, 'train_loss': 0.09663505571973964, 'epoch': 5.0}
+Precision: 0.9864, Recall: 0.9864, F1: 0.9864
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 7 on CoNLL-2000 POS =====
+{'loss': 0.363, 'grad_norm': 1.823296070098877, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07183375209569931, 'eval_runtime': 0.7119, 'eval_samples_per_second': 1255.757, 'eval_steps_per_second': 78.66, 'epoch': 1.0}
+{'loss': 0.0631, 'grad_norm': 5.924097537994385, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.05547237768769264, 'eval_runtime': 0.713, 'eval_samples_per_second': 1253.831, 'eval_steps_per_second': 78.54, 'epoch': 2.0}
+{'loss': 0.0378, 'grad_norm': 0.31214576959609985, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.05256575345993042, 'eval_runtime': 0.7135, 'eval_samples_per_second': 1252.998, 'eval_steps_per_second': 78.488, 'epoch': 3.0}
+{'loss': 0.0221, 'grad_norm': 1.2060436010360718, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.0550621934235096, 'eval_runtime': 0.7122, 'eval_samples_per_second': 1255.322, 'eval_steps_per_second': 78.633, 'epoch': 4.0}
+{'loss': 0.0148, 'grad_norm': 2.616527557373047, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.0549469031393528, 'eval_runtime': 0.7121, 'eval_samples_per_second': 1255.394, 'eval_steps_per_second': 78.638, 'epoch': 5.0}
+{'train_runtime': 130.8882, 'train_samples_per_second': 307.247, 'train_steps_per_second': 19.215, 'train_loss': 0.09965563763681036, 'epoch': 5.0}
+Precision: 0.9867, Recall: 0.9867, F1: 0.9867
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 8 on CoNLL-2000 POS =====
+{'loss': 0.3363, 'grad_norm': 3.419248580932617, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.0710456445813179, 'eval_runtime': 0.7112, 'eval_samples_per_second': 1257.012, 'eval_steps_per_second': 78.739, 'epoch': 1.0}
+{'loss': 0.0639, 'grad_norm': 1.8931456804275513, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.05507134273648262, 'eval_runtime': 0.7116, 'eval_samples_per_second': 1256.251, 'eval_steps_per_second': 78.691, 'epoch': 2.0}
+{'loss': 0.0382, 'grad_norm': 0.4310738742351532, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.05009454861283302, 'eval_runtime': 0.7127, 'eval_samples_per_second': 1254.457, 'eval_steps_per_second': 78.579, 'epoch': 3.0}
+{'loss': 0.0226, 'grad_norm': 1.0709375143051147, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.052833087742328644, 'eval_runtime': 0.7123, 'eval_samples_per_second': 1255.027, 'eval_steps_per_second': 78.615, 'epoch': 4.0}
+{'loss': 0.0146, 'grad_norm': 1.3320170640945435, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.053401969373226166, 'eval_runtime': 0.7143, 'eval_samples_per_second': 1251.581, 'eval_steps_per_second': 78.399, 'epoch': 5.0}
+{'train_runtime': 130.5412, 'train_samples_per_second': 308.064, 'train_steps_per_second': 19.266, 'train_loss': 0.09461269839028004, 'epoch': 5.0}
+Precision: 0.9864, Recall: 0.9864, F1: 0.9864
+
+completed conll00 
+
+
+===== Training oliverguhr/fullstop-punctuation-multilingual-base seed 9 on CoNLL-2000 POS =====
+{'loss': 0.3395, 'grad_norm': 2.5888826847076416, 'learning_rate': 4.0079522862823066e-05, 'epoch': 0.99}
+{'eval_loss': 0.07127005606889725, 'eval_runtime': 0.7121, 'eval_samples_per_second': 1255.4, 'eval_steps_per_second': 78.638, 'epoch': 1.0}
+{'loss': 0.0729, 'grad_norm': 1.4850908517837524, 'learning_rate': 3.0139165009940357e-05, 'epoch': 1.99}
+{'eval_loss': 0.05408934876322746, 'eval_runtime': 0.7145, 'eval_samples_per_second': 1251.282, 'eval_steps_per_second': 78.38, 'epoch': 2.0}
+{'loss': 0.0379, 'grad_norm': 0.6899433135986328, 'learning_rate': 2.0198807157057655e-05, 'epoch': 2.98}
+{'eval_loss': 0.05302887409925461, 'eval_runtime': 0.7139, 'eval_samples_per_second': 1252.287, 'eval_steps_per_second': 78.443, 'epoch': 3.0}
+{'loss': 0.0226, 'grad_norm': 1.427211046218872, 'learning_rate': 1.0258449304174951e-05, 'epoch': 3.98}
+{'eval_loss': 0.05484781786799431, 'eval_runtime': 0.7114, 'eval_samples_per_second': 1256.716, 'eval_steps_per_second': 78.72, 'epoch': 4.0}
+{'loss': 0.0138, 'grad_norm': 1.1081037521362305, 'learning_rate': 3.1809145129224657e-07, 'epoch': 4.97}
+{'eval_loss': 0.05570423975586891, 'eval_runtime': 0.7118, 'eval_samples_per_second': 1256.025, 'eval_steps_per_second': 78.677, 'epoch': 5.0}
+{'train_runtime': 130.3137, 'train_samples_per_second': 308.601, 'train_steps_per_second': 19.3, 'train_loss': 0.09684136714304892, 'epoch': 5.0}
+Precision: 0.9865, Recall: 0.9865, F1: 0.9865
+
+completed conll00 
+
