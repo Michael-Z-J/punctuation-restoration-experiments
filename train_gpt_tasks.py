@@ -45,31 +45,100 @@ def seqeval_prf1(gold_seqs, pred_seqs):
     return p, r, f1
 
 
+# Note that conll and genia use the same evaluation
+def evaluate_conll_ner(model, dataset, tokenizer, label_names, max_length=256, gen_max_new_tokens=256):
+    model.eval()
+    device = next(model.parameters()).device
+    label_set = set(label_names)
 
-def span_prf1_from_bio(gold_seqs, pred_seqs):
-    total_correct = total_pred = total_gold = 0
+    gold_seqs, pred_seqs = [], []
 
-    for gold_tags, pred_tags in zip(gold_seqs, pred_seqs):
-        # pad/trunc to gold length
-        pred_tags = list(pred_tags)
+    for example in dataset:
+        tokens = example["tokens"]
+        gold_tags = [label_names[i] for i in example["ner_tags"]]
+
+        prompt = build_ner_prompt(tokens)
+        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=max_length).to(device)
+
+        with torch.no_grad():
+            gen_ids = model.generate(
+                **inputs,
+                do_sample=False,
+                num_beams=1,
+                max_new_tokens=min(gen_max_new_tokens, len(gold_tags) + 20),
+                eos_token_id=tokenizer.eos_token_id,
+                pad_token_id=tokenizer.pad_token_id,
+            )
+
+        decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
+
+        # Prefer strict delimiter parsing; if missing, treat as empty (=> all O after padding)
+        if "NER tags:" in decoded:
+            pred_part = decoded.split("NER tags:", 1)[1].strip()
+            pred_tags = pred_part.split()
+        else:
+            pred_tags = []
+
+        pred_tags = sanitize_to_label_set(pred_tags, label_set)
+
+        # pad/truncate to gold length
         if len(pred_tags) < len(gold_tags):
             pred_tags += ["O"] * (len(gold_tags) - len(pred_tags))
         pred_tags = pred_tags[:len(gold_tags)]
 
-        gold_spans = bio_to_spans(gold_tags)
-        pred_spans = bio_to_spans(pred_tags)
+        gold_seqs.append(gold_tags)
+        pred_seqs.append(pred_tags)
 
-        total_correct += len(gold_spans & pred_spans)
-        total_pred += len(pred_spans)
-        total_gold += len(gold_spans)
+    return seqeval_prf1(gold_seqs, pred_seqs)
 
-    precision = total_correct / total_pred if total_pred else 0.0
-    recall = total_correct / total_gold if total_gold else 0.0
-    f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) else 0.0
-    return precision, recall, f1
+
+def evaluate_ontonotes_ner(model, dataset, tokenizer, id2label, max_length=256, gen_max_new_tokens=256):
+    model.eval()
+    device = next(model.parameters()).device
+    label_set = set(id2label.values())
+
+    gold_seqs, pred_seqs = [], []
+
+    for example in dataset:
+        tokens = example["tokens"]
+        gold_tags = [id2label[i] for i in example["tags"]]
+
+        prompt = build_ner_prompt(tokens)
+        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=max_length).to(device)
+
+        with torch.no_grad():
+            gen_ids = model.generate(
+                **inputs,
+                do_sample=False,
+                num_beams=1,
+                max_new_tokens=min(gen_max_new_tokens, len(gold_tags) + 20),
+                eos_token_id=tokenizer.eos_token_id,
+                pad_token_id=tokenizer.pad_token_id,
+            )
+
+        decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
+
+        if "NER tags:" in decoded:
+            pred_part = decoded.split("NER tags:", 1)[1].strip()
+            pred_tags = pred_part.split()
+        else:
+            pred_tags = []
+
+        pred_tags = sanitize_to_label_set(pred_tags, label_set)
+
+        if len(pred_tags) < len(gold_tags):
+            pred_tags += ["O"] * (len(gold_tags) - len(pred_tags))
+        pred_tags = pred_tags[:len(gold_tags)]
+
+        gold_seqs.append(gold_tags)
+        pred_seqs.append(pred_tags)
+
+    return seqeval_prf1(gold_seqs, pred_seqs)
+
 
 
 #from bert testing
+# used for POS 
 def prf1(num_correct: int, num_attempted: int, num_gold: int) -> tuple[float, float, float]:
     precision = num_correct / num_attempted if num_attempted else 0.0
     recall = num_correct / num_gold if num_gold else 0.0
@@ -106,17 +175,15 @@ def build_ner_prompt(tokens):
 
 #conll12 srl
 def build_srl_prompt(tokens, predicate_index):
-    """
-    Put [PRED] markers in the sentence so the model knows which predicate.
-    Gold tags should still be one-per-original-token (exclude markers).
-    """
+    # Put [PRED] markers in the sentence so the model knows which predicate.
+    # Gold tags should still be one-per-original-token (exclude markers).
     toks = tokens.copy()
     pred = predicate_index
 
     marked = toks[:pred] + ["[PRED]", toks[pred], "[/PRED]"] + toks[pred + 1 :]
     sent = " ".join(marked)
 
-    # Important: keep the delimiter consistent with eval parsing
+    # keep the delimiter consistent with eval parsing
     return f"Sentence: {sent}\nSRL tags:"
 
 
@@ -182,8 +249,12 @@ def preprocess_srl_gpt2(example, tokenizer, max_length=256):
     labels = tokenized["input_ids"].copy()
     prompt_len = min(len(prompt_ids), max_length)
     labels[:prompt_len] = [-100] * prompt_len
-    tokenized["labels"] = labels
+    
+    # mask padding tokens
+    attn = tokenized["attention_mask"]
+    labels = [lab if m == 1 else -100 for lab, m in zip(labels, attn)]
 
+    tokenized["labels"] = labels
     return tokenized
 
 
@@ -299,6 +370,10 @@ def preprocess_conll_pos(example, tokenizer, label_names, max_length=256):
     prompt_len = min(len(prompt_ids), max_length)
     labels[:prompt_len] = [-100] * prompt_len
 
+    # mask padding tokens
+    attn = tokenized["attention_mask"]
+    labels = [lab if m == 1 else -100 for lab, m in zip(labels, attn)]
+
     tokenized["labels"] = labels
     return tokenized
 
@@ -377,6 +452,11 @@ def preprocess_conll_ner(example, tokenizer, label_names, max_length=256):
     labels = tokenized["input_ids"].copy()
     prompt_len = min(len(prompt_ids), max_length)
     labels[:prompt_len] = [-100] * prompt_len
+    
+    # mask padding tokens
+    attn = tokenized["attention_mask"]
+    labels = [lab if m == 1 else -100 for lab, m in zip(labels, attn)]
+
     tokenized["labels"] = labels
     return tokenized
 
@@ -407,162 +487,12 @@ def preprocess_ontonotes(example, tokenizer, label_names, id2label, max_length=2
     prompt_len = min(len(prompt_ids), max_length)
     labels[:prompt_len] = [-100] * prompt_len
 
+    # mask padding tokens
+    attn = tokenized["attention_mask"]
+    labels = [lab if m == 1 else -100 for lab, m in zip(labels, attn)]
+
     tokenized["labels"] = labels
     return tokenized
-
-
-# the evaluation of conll_ner is the same as genia ner
-# def evaluate_conll_ner(model, dataset, tokenizer, label_names, max_length=256, gen_max_new_tokens=256):
-#     model.eval()
-#     device = next(model.parameters()).device
-
-#     outputs, targets, texts = [], [], []
-
-#     for example in dataset:
-#         tokens = example["tokens"]
-#         gold_tags = [label_names[i] for i in example["ner_tags"]]
-
-#         prompt = build_ner_prompt(tokens)
-
-#         inputs = tokenizer(
-#             prompt,
-#             return_tensors="pt",
-#             truncation=True,
-#             max_length=max_length,
-#         ).to(device)
-
-#         with torch.no_grad():
-#             gen_ids = model.generate(
-#                 **inputs,
-#                 max_new_tokens=min(gen_max_new_tokens, max_length),
-#                 do_sample=False,
-#                 num_beams=1,
-#                 eos_token_id=tokenizer.eos_token_id,
-#                 pad_token_id=tokenizer.pad_token_id,
-#             )
-
-#         decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
-#         pred_part = decoded.split("NER tags:", 1)[1].strip() if "NER tags:" in decoded else decoded.strip()
-
-#         pred_tags = pred_part.split()
-#         pred_tags = pred_tags[:len(gold_tags)]
-
-#         outputs.append(" ".join(pred_tags))
-#         targets.append(" ".join(gold_tags))
-#         texts.append(" ".join(tokens))
-
-#     return score(texts, outputs, targets)
-
-def evaluate_conll_ner(model, dataset, tokenizer, label_names, max_length=256, gen_max_new_tokens=256):
-    model.eval()
-    device = next(model.parameters()).device
-
-    gold_seqs, pred_seqs = [], []
-
-    for example in dataset:
-        tokens = example["tokens"]
-        gold_tags = [label_names[i] for i in example["ner_tags"]]
-
-        prompt = build_ner_prompt(tokens)
-        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=max_length).to(device)
-
-        with torch.no_grad():
-            gen_ids = model.generate(
-                **inputs,
-                max_new_tokens=min(gen_max_new_tokens, max_length),
-                do_sample=False,
-                num_beams=1,
-                eos_token_id=tokenizer.eos_token_id,
-                pad_token_id=tokenizer.pad_token_id,
-            )
-
-        decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
-        pred_part = decoded.split("NER tags:", 1)[1].strip() if "NER tags:" in decoded else decoded.strip()
-        pred_tags = pred_part.split()
-
-        gold_seqs.append(gold_tags)
-        pred_seqs.append(pred_tags)
-
-    return span_prf1_from_bio(gold_seqs, pred_seqs)
-
-
-# def evaluate_ontonotes_ner(model, dataset, tokenizer, label_names, id2label, max_length=256, gen_max_new_tokens=256):
-#     model.eval()
-#     device = next(model.parameters()).device
-
-#     outputs, targets, texts = [], [], []
-
-#     for example in dataset:
-#         tokens = example["tokens"]
-#         gold_tags = [id2label[i] for i in example["tags"]]
-
-#         prompt = build_ner_prompt(tokens)
-
-#         inputs = tokenizer(
-#             prompt,
-#             return_tensors="pt",
-#             truncation=True,
-#             max_length=max_length,
-#         ).to(device)
-
-#         with torch.no_grad():
-#             gen_ids = model.generate(
-#                 **inputs,
-#                 max_new_tokens=min(gen_max_new_tokens, max_length),
-#                 do_sample=False,
-#                 num_beams=1,
-#                 eos_token_id=tokenizer.eos_token_id,
-#                 pad_token_id=tokenizer.pad_token_id,
-#             )
-
-#         decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
-#         # print("decoded: ", decoded)
-
-#         if "NER tags:" in decoded:
-#             pred_part = decoded.split("NER tags:", 1)[1].strip()
-#         else:
-#             pred_part = decoded.strip()
-
-#         pred_tags = pred_part.split()[:len(gold_tags)]
-
-#         outputs.append(" ".join(pred_tags))
-#         targets.append(" ".join(gold_tags))
-#         texts.append(" ".join(tokens))
-
-#     return score(texts, outputs, targets)
-
-
-def evaluate_ontonotes_ner(model, dataset, tokenizer, id2label, max_length=256, gen_max_new_tokens=256):
-    model.eval()
-    device = next(model.parameters()).device
-
-    gold_seqs, pred_seqs = [], []
-
-    for example in dataset:
-        tokens = example["tokens"]
-        gold_tags = [id2label[i] for i in example["tags"]]
-
-        prompt = build_ner_prompt(tokens)
-        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=max_length).to(device)
-
-        with torch.no_grad():
-            gen_ids = model.generate(
-                **inputs,
-                max_new_tokens=min(gen_max_new_tokens, max_length),
-                do_sample=False,
-                num_beams=1,
-                eos_token_id=tokenizer.eos_token_id,
-                pad_token_id=tokenizer.pad_token_id,
-            )
-
-        decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
-        pred_part = decoded.split("NER tags:", 1)[1].strip() if "NER tags:" in decoded else decoded.strip()
-        pred_tags = pred_part.split()
-
-        gold_seqs.append(gold_tags)
-        pred_seqs.append(pred_tags)
-
-    return span_prf1_from_bio(gold_seqs, pred_seqs)
 
 
 def run_conll_pos(args, seed):
@@ -633,6 +563,8 @@ def run_conll_ner(args, seed):
     print(f"\n===== Training {args.model} on CoNLL-2003 NER =====")
 
     raw_dataset = load_dataset("conll2003", trust_remote_code=True)
+    # small_train = raw_dataset["train"].select(range(100))
+    # dataset = small_train.train_test_split(test_size=0.1, seed=42)
 
     dataset = raw_dataset["train"].train_test_split(test_size=0.1, seed=42)
     label_names = raw_dataset["train"].features["ner_tags"].feature.names
@@ -680,6 +612,7 @@ def run_conll_ner(args, seed):
     tokenizer.save_pretrained(save_dir)
 
     print("\n===== CoNLL-2003 NER Evaluation =====")
+    # p, r, f1 = evaluate_conll_ner(model, raw_dataset["test"].select(range(100)), tokenizer, label_names)
     p, r, f1 = evaluate_conll_ner(model, raw_dataset["test"], tokenizer, label_names)
     print(f"Precision: {p:.4f}, Recall: {r:.4f}, F1: {f1:.4f}")
 
@@ -693,6 +626,8 @@ def run_genia_ner(args, seed):
     print(f"\n===== Training {args.model} on GENIA NER =====")
 
     raw_dataset = load_dataset("chufangao/GENIA-NER", trust_remote_code=True)
+    # small_train = raw_dataset["train"].select(range(100))
+    # dataset = small_train.train_test_split(test_size=0.1, seed=42)
 
     dataset = raw_dataset["train"].train_test_split(test_size=0.1, seed=42)
     label_names = raw_dataset["train"].features["ner_tags"].feature.names
@@ -753,6 +688,8 @@ def run_ontonotes_ner(args, seed):
     print(f"\n===== Training {args.model} on OntoNotes5 NER =====")
 
     raw_dataset = load_dataset("tner/ontonotes5", trust_remote_code=True)
+    # small_train = raw_dataset["train"].select(range(100))
+    # dataset = small_train.train_test_split(test_size=0.1, seed=42)
 
     dataset = raw_dataset["train"].train_test_split(test_size=0.1, seed=42)
     label_names = sorted({tag for seq in dataset["train"]["tags"] for tag in seq})
@@ -854,6 +791,8 @@ def run_conll_srl(args, seed):
     seed_everything(seed)
     print(f"\n===== Training {args.model} on CoNLL-2012 SRL (GPT2 causal LM prompting) =====")
 
+    # use force download if dataset error in logs
+    # raw = load_dataset("ontonotes/conll2012_ontonotesv5", "english_v4", trust_remote_code=True,download_mode="force_redownload")
     raw = load_dataset("ontonotes/conll2012_ontonotesv5", "english_v4", trust_remote_code=True)
     print("loaded dataset \n\n")
     train_data = flatten_conll_srl(raw["train"])
@@ -937,8 +876,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type=str,
-        default="bert-base-uncased",
-        help="what model to fine-tune (bert-base-uncased, felflare/bert-restore-punctuation)",
+        default="gpt2",
+        help="what model to fine-tune (gpt2, checkpoints/gpt2_yelp_pr)",
     )
     parser.add_argument(
         "--task",
@@ -952,10 +891,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     results = []
-    for i in range(1):
-        if args.task == "tacred":
-            p,r,f1 = run_tacred(args,i)
-        elif args.task == "conll00": # pos
+    for i in range(10):
+        if args.task == "conll00": # pos
             p,r,f1 = run_conll_pos(args,i)
         elif args.task == "conll03": # ner
             p,r,f1 = run_conll_ner(args,i)
